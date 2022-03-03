@@ -45,10 +45,11 @@ interface IProps {
  */
 /* eslint-disable */
 interface IState {
-  uploadedFile: Array<Object>;
+  uploadedFile: Array<Record<string, any>>;
   uploadedFilePath: Array<String>;
   uploadingPercentage: number;
   showAlertBox: boolean;
+  uploadFileImageUrl: Array<string>;
 }
 
 /**
@@ -69,6 +70,7 @@ class UploadAsset extends React.Component<IProps, IState> {
     uploadedFilePath: null,
     uploadingPercentage: 0,
     showAlertBox: false,
+    uploadFileImageUrl: null,
   };
 
   /**
@@ -169,8 +171,11 @@ class UploadAsset extends React.Component<IProps, IState> {
     const files = event.target.files;
     const filesToBeUploaded = [];
     const filepathsToBeUploaded = [];
+    const fileImages = [];
     for (var key in files) {
       if (typeof files[key] != "object") continue;
+
+      fileImages.push(URL.createObjectURL(files[key]));
       const path = "C:/fakepath/" + files[key].name;
       const isValid = this.validateFile(files[key], path);
       if (isValid) {
@@ -178,6 +183,7 @@ class UploadAsset extends React.Component<IProps, IState> {
         filepathsToBeUploaded.push(path);
       }
     }
+    this.setState({ uploadFileImageUrl: fileImages });
     this.setState({ uploadedFile: filesToBeUploaded });
     this.setState({ uploadedFilePath: filepathsToBeUploaded });
   }
@@ -371,14 +377,19 @@ class UploadAsset extends React.Component<IProps, IState> {
           </Row>
 
           <Row
+            md={2}
             className="drop-box d-none"
-            style={{ display: "flex" }}
+            style={{ display: "grid" }}
             ref={this.uploadingRef}
           >
             {this.state.uploadedFile?.map((file, index) => (
-              // console.log(file?.name)
               <UploadCard
                 key={index}
+                imageUrl={
+                  file.type == "image/jpeg" || file.type == "image/png"
+                    ? this.state?.uploadFileImageUrl[index]
+                    : null
+                }
                 uploadedFileName={file?.name}
                 uploadedFIleSize={file?.size}
                 uploadedFileType={

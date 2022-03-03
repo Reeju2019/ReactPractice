@@ -14,6 +14,7 @@ import "./App.css";
 import { BeforeAfterSliderComponent } from "./components/BeforeAfterSliderComponent";
 import { EmailSelectorComponent } from "./components/EmailSelector";
 import { ListGroupComponent } from "./components/ListGroupComponent";
+import { AgreementComponent } from "./components/AgreementComponent";
 
 /**
  * @description Properties of App Component
@@ -533,12 +534,14 @@ class App extends React.Component<IProps, IState> {
           />
         )} */}
 
-        {this.state.listGroupData && (
+        {/* {this.state.listGroupData && (
           <ListGroupComponent
             data={this.state.listGroupData}
             onClick={this.listGroupItemHandler}
           />
-        )}
+        )} */}
+
+        {/* <AgreementComponent /> */}
       </div>
     );
   }

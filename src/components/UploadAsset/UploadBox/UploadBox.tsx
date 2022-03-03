@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, ProgressBar } from "react-bootstrap";
+import { Row, Col, ProgressBar, CloseButton } from "react-bootstrap";
 import { AiFillCloseCircle } from "react-icons/ai";
 
 /**
@@ -42,21 +42,27 @@ class UploadBox extends React.Component<IProps, IState> {
   render() {
     return (
       <>
-        <Row className="show-progressbar-box align-items-center justify-content-center py-3">
+        <Row
+          className="show-progressbar-box align-items-center justify-content-center py-3 ms-1"
+          style={{ flexWrap: "nowrap", overflow: "hidden" }}
+        >
           <Col xs={2} md={4}>
             {this.props.uploadMsg}
           </Col>
           <Col xs={2} md={2}>
-            {`${this.props.uploadingPercentage}%`}
+            <p style={{ fontSize: 12, margin: "auto 0" }}>
+              {`${this.props.uploadingPercentage}%`}
+            </p>
           </Col>
           <Col xs={2} md={4}>
             <ProgressBar now={this.props.uploadingPercentage} />
           </Col>
           <Col xs={2} md={2}>
-            {this.props.uploadingPercentage === 100 ? null : (
+            {/* {this.props.uploadingPercentage === 100 ? null : ( */}
+            {this.props.uploadingPercentage === 90 ? null : (
               <AiFillCloseCircle
                 onClick={this.props.uploadCancelHandler}
-                className="cus-close"
+                className="rounded-circle cus-close"
               />
             )}
           </Col>
