@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Column Chart Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="cchart-container-border m-5 m-5"
+    >
+      <Row
+        className="cchart-border-bottom py-4"
+      >
+        <Col
+          className="header-1-cchart"
+          lg={6}
+          md={6}
+          sm={8}
+          xs={9}
+        >
+          grade report
+        </Col>
+        <Col
+          lg={6}
+          md={6}
+          sm={4}
+          xs={3}
+        >
+          <FormSelect
+            aria-label="Default select example"
+            multiple={false}
+            onChange={[Function]}
+          >
+            <option>
+              model1
+            </option>
+            <option>
+              model2
+            </option>
+            <option>
+              model3
+            </option>
+          </FormSelect>
+        </Col>
+      </Row>
+      <Row
+        className="p-4 mt-2"
+        lg={12}
+        md={12}
+        sm={12}
+        xs={12}
+      >
+        <ForwardRef
+          data={
+            Object {
+              "datasets": Array [
+                Object {
+                  "backgroundColor": "#c1b4e7",
+                  "barPercentage": 1,
+                  "barThickness": 20,
+                  "categoryPercentage": 1,
+                  "data": Array [
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                  ],
+                  "label": "",
+                  "maxBarThickness": 25,
+                  "minBarLength": 20,
+                },
+              ],
+              "labels": Array [
+                "A+",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+              ],
+              "modelName": "model1",
+            }
+          }
+          options={
+            Object {
+              "plugins": Object {},
+              "responsive": false,
+              "scales": Object {
+                "x": Object {
+                  "axis": "x",
+                  "beginAtZero": false,
+                  "bounds": "ticks",
+                  "display": true,
+                  "grace": 0,
+                  "grid": Object {
+                    "borderColor": "rgba(0,0,0,0.1)",
+                    "borderDash": Array [],
+                    "borderDashOffset": 0,
+                    "borderWidth": 1,
+                    "color": "rgba(0,0,0,0.1)",
+                    "display": true,
+                    "drawBorder": true,
+                    "drawOnChartArea": true,
+                    "drawTicks": true,
+                    "lineWidth": 1,
+                    "offset": true,
+                    "tickColor": [Function],
+                    "tickLength": 8,
+                    "tickWidth": [Function],
+                  },
+                  "offset": true,
+                  "reverse": false,
+                  "ticks": Object {
+                    "align": "center",
+                    "autoSkip": true,
+                    "autoSkipPadding": 3,
+                    "backdropColor": "rgba(255, 255, 255, 0.75)",
+                    "backdropPadding": 2,
+                    "callback": [Function],
+                    "color": "#666",
+                    "crossAlign": "near",
+                    "display": true,
+                    "labelOffset": 0,
+                    "major": Object {},
+                    "maxRotation": 50,
+                    "minRotation": 0,
+                    "minor": Object {},
+                    "mirror": false,
+                    "padding": 3,
+                    "showLabelBackdrop": false,
+                    "textStrokeColor": "",
+                    "textStrokeWidth": 0,
+                  },
+                  "title": Object {
+                    "color": "#666",
+                    "display": false,
+                    "padding": Object {
+                      "bottom": 4,
+                      "top": 4,
+                    },
+                    "text": "",
+                  },
+                  "type": "category",
+                },
+                "y": Object {
+                  "axis": "y",
+                  "beginAtZero": true,
+                  "bounds": "ticks",
+                  "display": true,
+                  "grace": 0,
+                  "grid": Object {
+                    "borderColor": "rgba(0,0,0,0.1)",
+                    "borderDash": Array [],
+                    "borderDashOffset": 0,
+                    "borderWidth": 1,
+                    "color": "rgba(0,0,0,0.1)",
+                    "display": true,
+                    "drawBorder": true,
+                    "drawOnChartArea": true,
+                    "drawTicks": true,
+                    "lineWidth": 1,
+                    "offset": false,
+                    "tickColor": [Function],
+                    "tickLength": 8,
+                    "tickWidth": [Function],
+                  },
+                  "offset": false,
+                  "reverse": false,
+                  "ticks": Object {
+                    "align": "center",
+                    "autoSkip": true,
+                    "autoSkipPadding": 3,
+                    "backdropColor": "rgba(255, 255, 255, 0.75)",
+                    "backdropPadding": 2,
+                    "callback": [Function],
+                    "color": "#666",
+                    "crossAlign": "near",
+                    "display": true,
+                    "labelOffset": 0,
+                    "major": Object {},
+                    "maxRotation": 50,
+                    "minRotation": 0,
+                    "minor": Object {},
+                    "mirror": false,
+                    "padding": 3,
+                    "showLabelBackdrop": false,
+                    "textStrokeColor": "",
+                    "textStrokeWidth": 0,
+                  },
+                  "title": Object {
+                    "color": "#666",
+                    "display": false,
+                    "padding": Object {
+                      "bottom": 4,
+                      "top": 4,
+                    },
+                    "text": "",
+                  },
+                  "type": "linear",
+                },
+              },
+            }
+          }
+        />
+      </Row>
+    </Row>
+  </React.Fragment>,
+]
+`;

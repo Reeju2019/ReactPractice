@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadAsset Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Container
+      className="drag-sec"
+      fluid={false}
+    >
+      <FormGroup
+        className="input-file"
+        onChange={[Function]}
+      >
+        <FormControl
+          onChange={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onDragOver={[Function]}
+          type="file"
+        />
+      </FormGroup>
+      <Row>
+        <Col
+          className="drop-box"
+          md={12}
+          xs={12}
+        >
+          <Row>
+            <Col
+              className="text-center"
+              md={12}
+              xs={12}
+            >
+              Supported File Formats:
+              <FormLabel
+                className="strong"
+                column={false}
+                visuallyHidden={false}
+              >
+                img, jpeg, png and etc
+              </FormLabel>
+            </Col>
+            <Col
+              md={12}
+              xs={12}
+            >
+              <FormLabel
+                className="pe-1"
+                column={false}
+                visuallyHidden={false}
+              >
+                Drop your files here or
+              </FormLabel>
+              <FormLabel
+                className="strong"
+                column={false}
+                id="browse"
+                onClick={[Function]}
+                visuallyHidden={false}
+              >
+                Browse
+              </FormLabel>
+            </Col>
+            <Col
+              md={12}
+              xs={12}
+            >
+              <FormLabel
+                className="pe-1"
+                column={false}
+                visuallyHidden={false}
+              >
+                Max size of Video: 25 MB
+              </FormLabel>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Row
+        className="drop-box d-none"
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <UploadCard />
+        <Col
+          className="m-auto"
+          md={10}
+          xs={11}
+        />
+      </Row>
+    </Container>
+  </React.Fragment>,
+]
+`;

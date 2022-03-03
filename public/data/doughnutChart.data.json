@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "header": {
+      "xs": 6,
+      "sm": 7,
+      "md": 6,
+      "lg": 7
+    },
+    "dropdown": {
+      "xs": 6,
+      "sm": 5,
+      "md": 6,
+      "lg": 4
+    },
+    "chart": {
+      "xs": 6,
+      "sm": 6,
+      "md": 6,
+      "lg": 6
+    },
+    "legend": {
+      "xs": 6,
+      "sm": 6,
+      "md": 6,
+      "lg": 6
+    }
+  },
+  "data": [
+    {
+      "modelName": "model1",
+      "labels": ["Present", "Absent", "undefined"],
+      "datasets": [
+        {
+          "label": "LEGEND",
+          "data": [12, 11, 19],
+          "backgroundColor": ["#4326a3", "#f28e2b", "#000"],
+          "borderColor": ["#4326a3", "#f28e2b", "#fff"],
+          "borderWidth": 1
+        }
+      ]
+    },
+    {
+      "modelName": "model3",
+      "labels": ["present", "absent"],
+      "datasets": [
+        {
+          "label": "LEGEND",
+          "data": [200, 20],
+          "backgroundColor": ["#4326a3", "#000"],
+          "borderColor": ["#4326a3", "#f28e2b"],
+          "borderWidth": 1
+        }
+      ]
+    },
+    {
+      "modelName": "model4",
+      "labels": ["h", "r", "g"],
+      "datasets": [
+        {
+          "label": "LEGEND",
+          "data": [12, 19, 15],
+          "backgroundColor": ["#000", "blue", "#fff"],
+          "borderColor": ["#4326a3", "#f28e2b", "#fff"],
+          "borderWidth": 1
+        }
+      ]
+    }
+  ],
+  "options": {
+    "responsive": true
+  },
+  "multiple": false
+}

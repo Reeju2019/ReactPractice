@@ -1,0 +1,66 @@
+.reg-card-part-1 {
+  height: 50%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  background-color: #8bc349;
+  padding: 30px;
+  margin: 0;
+}
+
+.reg-card-part-2 {
+  height: 50%;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+  margin: 0;
+}
+
+.reg-img {
+  width: 45%;
+  border-radius: 50%;
+}
+
+.reg-status {
+  font-size: 1.3rem;
+  font-weight: 100;
+  opacity: 1;
+  padding-top: 14px;
+  color: white;
+}
+
+.reg-msg {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.6;
+  padding-bottom: 20px;
+}
+
+.reg-btn {
+  width: 45%;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #8bc349;
+  border: 0;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  &:hover {
+    background-color: #8bc349;
+  }
+  &:focus {
+    background-color: #8bc349;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.cus-design {
+  padding: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.modal-content {
+  border-radius: 15px;
+}

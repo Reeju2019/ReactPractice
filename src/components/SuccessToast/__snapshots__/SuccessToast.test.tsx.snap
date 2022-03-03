@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success toast Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="toast-container"
+    >
+      <ToastContainer
+        className="p-3"
+        position="top-start"
+      >
+        <Toast
+          autohide={true}
+          delay={4000}
+          onClose={[Function]}
+          show={true}
+        >
+          <ToastHeader
+            closeButton={true}
+            closeLabel="Close"
+          >
+            <Row
+              className="text-start d-flex justify-content-center align-items-center m-0 p-0"
+            >
+              <Col
+                className="d-flex justify-content-center align-items-center succ-img-bg"
+                md={2}
+              >
+                <Image
+                  className="succ-img"
+                  fluid={false}
+                  rounded={false}
+                  roundedCircle={false}
+                  src="/assets/logo/reg-suc.png"
+                  thumbnail={false}
+                />
+              </Col>
+              <Col
+                className=""
+                md={9}
+              >
+                <Row
+                  className="succ-status text-start ms-4"
+                >
+                  Login Successful!
+                </Row>
+                <Row
+                  className="succ-msg text-start ms-4"
+                >
+                  Congratulations! Your account has been successfully created
+                </Row>
+              </Col>
+              <Col
+                className="vl ms-1"
+                md={1}
+              />
+            </Row>
+          </ToastHeader>
+        </Toast>
+      </ToastContainer>
+    </Row>
+  </React.Fragment>,
+]
+`;

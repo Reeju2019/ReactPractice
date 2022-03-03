@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PdfGen Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <ReactToPdf
+      filename="test.download.pdf"
+      options={
+        Object {
+          "format": "a4",
+          "orientation": "p",
+          "putOnlyUsedFonts": true,
+          "unit": "mm",
+        }
+      }
+      scale={0.9}
+      targetRef={null}
+      x={0}
+      y={0}
+    >
+      [Function]
+    </ReactToPdf>
+  </React.Fragment>,
+]
+`;

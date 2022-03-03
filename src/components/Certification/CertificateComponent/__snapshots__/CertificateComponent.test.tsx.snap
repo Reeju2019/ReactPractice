@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CertificateComponent Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <React.Fragment>
+      <Row>
+        <Col
+          md={4}
+          xs={4}
+        >
+          <Row
+            className="header-3"
+          >
+            Certificate Preview
+          </Row>
+          <Row
+            className="header-4"
+          >
+            Template 01
+          </Row>
+        </Col>
+        <Col
+          className="text-end"
+          md={7}
+          xs={4}
+        >
+          <PdfGen
+            downloadButtonName="Download Certificate"
+            downloadRef={
+              Object {
+                "current": null,
+              }
+            }
+            filename="demo.cert01.pdf"
+            options={
+              Object {
+                "format": "a4",
+                "orientation": "p",
+                "putOnlyUsedFonts": true,
+                "unit": "mm",
+              }
+            }
+          />
+        </Col>
+        <Share
+          closeButtonName="Close"
+          header="Share Your Certificate"
+          options={
+            Array [
+              "facebook",
+              "twitter",
+            ]
+          }
+          shareButtonName="Share"
+          shareUrl="https://www.w3schools.com/"
+        />
+      </Row>
+      <Row
+        className="mt-5"
+      >
+        <React.Fragment>
+          <FormLabel
+            className="main-box-div-template-1"
+            column={false}
+            visuallyHidden={false}
+          >
+            <Container
+              fluid={false}
+            >
+              <Row>
+                <Col
+                  className="img-bg-template-1"
+                >
+                  <img
+                    alt=""
+                    src="/assets/images/certTempBG01.png"
+                  />
+                </Col>
+              </Row>
+            </Container>
+            <Container
+              className="content-template-1"
+              fluid={false}
+            >
+              <Row
+                className="mb-3 d-flex justify-content-between"
+              >
+                <Col
+                  className="template-1-header-1"
+                  md={5}
+                  xs={4}
+                >
+                  COURSE CERTIFICATE
+                </Col>
+                <Col
+                  className="d-flex flex-column justify-content-end"
+                  md={5}
+                  xs={4}
+                >
+                  <FormLabel
+                    className="template-1-header-1 ms-auto"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    Company Name
+                  </FormLabel>
+                  <Card
+                    body={false}
+                    className="ms-auto"
+                    style={
+                      Object {
+                        "width": "5rem",
+                      }
+                    }
+                  >
+                    <CardImg
+                      src="/assets/images/company-logo.png"
+                      variant="top"
+                    />
+                  </Card>
+                </Col>
+              </Row>
+              <Row
+                className="mb-3"
+              >
+                <Col
+                  md={10}
+                  xs={10}
+                >
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    This is to certify that
+                  </FormLabel>
+                  <FormLabel
+                    className="header-2-violet ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    Ketan Kuperkar
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    has successfully completed the
+                  </FormLabel>
+                  <FormLabel
+                    className="header-2-violet ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    Automobile Basics Course - Level II
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    an online course authorized by
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-1 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    Company Name
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    on
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    20th August
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    for the course of
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    6 months
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    (
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    17 March
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    -
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    19 August
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-3"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    ).
+                  </FormLabel>
+                </Col>
+              </Row>
+              <Row
+                className="mb-3"
+              >
+                <Col
+                  className="text-center"
+                  md={8}
+                  xs={4}
+                >
+                  <Card
+                    body={false}
+                    className="m-auto"
+                    style={
+                      Object {
+                        "width": "5rem",
+                      }
+                    }
+                  >
+                    <CardImg
+                      src="/assets/images/company-logo.png"
+                      variant="top"
+                    />
+                  </Card>
+                </Col>
+              </Row>
+              <Row
+                className="d-flex justify-content-between"
+              >
+                <Col
+                  md={7}
+                  xs={7}
+                >
+                  <FormLabel
+                    className="template-1-header-4 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    VERIFY AT
+                  </FormLabel>
+                  <FormLabel
+                    className="template-1-header-5 ps-1 pe-1"
+                    column={false}
+                    visuallyHidden={false}
+                  >
+                    demo.company.website.com
+                  </FormLabel>
+                  <Row>
+                    <Col
+                      className=""
+                    >
+                      <FormLabel
+                        className="template-1-header-4 d-inline ps-1 pe-1"
+                        column={false}
+                        visuallyHidden={false}
+                      >
+                        Company Name
+                      </FormLabel>
+                      <FormLabel
+                        className="template-1-header-5 d-inline ps-1 pe-1"
+                        column={false}
+                        visuallyHidden={false}
+                      >
+                        has confirmed the identity of this individual and their participation in the course.
+                      </FormLabel>
+                    </Col>
+                  </Row>
+                </Col>
+                <Col
+                  className="ps-auto"
+                  md={3}
+                  xs={5}
+                >
+                  <Row>
+                    signature
+                  </Row>
+                  <Row
+                    className="header-4"
+                  >
+                    HEMA PARULKAR
+                  </Row>
+                  <Row
+                    className="header-5"
+                  >
+                    Course Manager
+                  </Row>
+                  <Row
+                    className="header-4"
+                  >
+                    Company Name
+                  </Row>
+                </Col>
+              </Row>
+            </Container>
+          </FormLabel>
+        </React.Fragment>
+      </Row>
+    </React.Fragment>
+  </React.Fragment>,
+]
+`;

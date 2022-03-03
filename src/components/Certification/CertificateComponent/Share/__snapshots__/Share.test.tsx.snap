@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Share Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Col
+      className="share-btn"
+      md={1}
+      onClick={[Function]}
+      xs={4}
+    >
+      share
+      <Modal
+        animation={true}
+        autoFocus={true}
+        backdrop={true}
+        className="d-flex justify-content-center p-5"
+        dialogAs={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        enforceFocus={true}
+        keyboard={true}
+        onHide={[Function]}
+        restoreFocus={true}
+        show={false}
+      >
+        <ModalHeader
+          closeButton={false}
+          closeLabel="Close"
+        >
+          <ModalTitle>
+            header
+          </ModalTitle>
+        </ModalHeader>
+        <ModalBody
+          className="d-flex justify-content-center"
+        >
+          <ForwardRef(ShareButton-facebook)
+            url="xyz.com"
+          >
+            <Icon
+              bgStyle={Object {}}
+              borderRadius={0}
+              iconFillColor="white"
+              size={64}
+            />
+          </ForwardRef(ShareButton-facebook)>
+          <ForwardRef(ShareButton-twitter)
+            url="xyz.com"
+          >
+            <Icon
+              bgStyle={Object {}}
+              borderRadius={0}
+              iconFillColor="white"
+              size={64}
+            />
+          </ForwardRef(ShareButton-twitter)>
+        </ModalBody>
+        <ModalFooter>
+          <Button
+            active={false}
+            disabled={false}
+            onClick={[Function]}
+            variant="secondary"
+          >
+            close
+          </Button>
+        </ModalFooter>
+      </Modal>
+    </Col>
+  </React.Fragment>,
+]
+`;

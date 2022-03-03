@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Certification Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Container
+      fluid={false}
+    >
+      <Row
+        className="mt-5 text-start"
+      >
+        <Row
+          className="mb-5 header-1"
+        >
+          Certifications
+        </Row>
+        <Col
+          className=""
+          md={3}
+          xs={3}
+        >
+          <Row
+            className="header-2 mb-4"
+          >
+            My Certifications
+          </Row>
+          <Row
+            className="header-3"
+          >
+            Course Title 1
+          </Row>
+          <Row
+            className="header-4"
+          >
+            Category
+          </Row>
+        </Col>
+        <Col
+          md={9}
+          xs={9}
+        >
+          <Row
+            className="d-flex justify-content-start"
+            onClick={[Function]}
+          >
+            <TemplateCard
+              caption="Template 01"
+              id={1}
+              imgUrl="/assets/images/certTempCard01.png"
+              setActiveCardRef={[Function]}
+            />
+            <TemplateCard
+              caption="Template 02"
+              id={2}
+              imgUrl="/assets/images/certTempCard02.png"
+              setActiveCardRef={[Function]}
+            />
+            <TemplateCard
+              caption="Template 03"
+              id={3}
+              imgUrl="/assets/images/certTempCard03.png"
+              setActiveCardRef={[Function]}
+            />
+          </Row>
+          <Row
+            className="mt-5 d-flex align-items-center"
+          >
+            <CertificateComponent
+              data={
+                Object {
+                  "authorisationDate": "20th August",
+                  "bgUrl": "/assets/images/certTempBG01.png",
+                  "candidateName": "Ketan Kuperkar",
+                  "companyName": "Company Name",
+                  "courseManager": "HEMA PARULKAR",
+                  "courseName": "Automobile Basics Course - Level II",
+                  "downloadOptions": Object {
+                    "format": "a4",
+                    "orientation": "p",
+                    "putOnlyUsedFonts": true,
+                    "unit": "mm",
+                  },
+                  "duration": "6 months",
+                  "filename": "demo.cert01.pdf",
+                  "finishDate": "19 August",
+                  "id": 1,
+                  "logoUrl": "/assets/images/company-logo.png",
+                  "shareUrl": "https://www.w3schools.com/",
+                  "sharingOptions": Array [
+                    "facebook",
+                    "twitter",
+                  ],
+                  "startDate": "17 March",
+                  "website": "demo.company.website.com",
+                }
+              }
+              localeConfig={
+                Object {
+                  "certification_download_button": "Download Certificate",
+                  "certification_header_1": "Certificate Preview",
+                  "certification_share_button": "Share",
+                  "certification_share_modal_close": "Close",
+                  "certification_share_modal_header": "Share Your Certificate",
+                  "columnChart_header": "Grade Reports",
+                  "doughnutChart_header": "Grade Reports",
+                  "doughnutChart_legendHeader": "LEGEND",
+                  "reportTable_header": "Courses",
+                  "reportTable_viewAll": "View All",
+                  "reportTable_viewDetails": "View Details",
+                  "template_1_body_1": "This is to certify that",
+                  "template_1_body_2": "has successfully completed the",
+                  "template_1_body_3": "an online course authorized by",
+                  "template_1_body_4": "on",
+                  "template_1_body_5": "for the course of",
+                  "template_1_body_6": "VERIFY AT",
+                  "template_1_body_7": "has confirmed the identity of this individual and their participation in the course.",
+                  "template_1_body_8": "Course Manager",
+                  "template_2_body_1": "THIS IS TO CERTIFY THAT",
+                  "template_2_body_2": "HAS SUCCESSFULLY COMPLETED",
+                  "template_2_body_3": "ON",
+                  "template_2_body_4": "FOR THE COURSE OF",
+                  "template_2_body_5": "AUTHORIZED BY",
+                  "template_2_body_6": "VERIFY AT",
+                  "template_2_body_7": "has confirmed the identity of this individual and their participation in the course.",
+                  "template_2_body_8": "Course Manager",
+                  "template_3_body_1": "This is to certify that",
+                  "template_3_body_2": "has successfully completed",
+                  "template_3_body_4": "FOR THE COURSE OF",
+                  "template_3_body_5": "This course is authorized by",
+                  "template_3_body_6": "VERIFY AT",
+                  "template_3_body_7": "has confirmed the identity of this individual and their participation in the course.",
+                  "template_3_body_8": "Course Manager",
+                  "template_header": "COURSE CERTIFICATE",
+                  "uploadAsset_dropBoxHeader_1": "Drop your files here or",
+                  "uploadAsset_dropBoxHeader_2": "Browse",
+                  "uploadAsset_dropBoxSubHeader_1": "Max size of Video: 25 MB",
+                  "uploadAsset_header_1": "Upload your",
+                  "uploadAsset_header_2": "Asset",
+                  "uploadAsset_subHeader_1": "Supported File Formats:",
+                  "uploadAsset_subHeader_2": "img, jpeg, png and etc",
+                  "uploadAsset_upload_msg_failure": "something went wrong, please check file type/size and upload again!",
+                  "uploadAsset_upload_msg_success": "uploading Complete!",
+                }
+              }
+              selectedTemplate={1}
+            />
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+  </React.Fragment>,
+]
+`;

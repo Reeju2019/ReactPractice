@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Template Card Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Col
+      lg={3}
+      md={4}
+      xs={4}
+    >
+      <Card
+        body={false}
+        className="me-3"
+      >
+        <CardImg
+          className="template-card"
+          id="1"
+          onClick={[Function]}
+          src=""
+          variant="top"
+        />
+      </Card>
+      <FormLabel
+        className="template-caption"
+        column={false}
+        visuallyHidden={false}
+      >
+        caption
+      </FormLabel>
+    </Col>
+  </React.Fragment>,
+]
+`;

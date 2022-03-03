@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadAsset Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Col
+      className="alert-box--active"
+      md={12}
+      xs={12}
+    >
+      Hello world
+    </Col>
+  </React.Fragment>,
+]
+`;

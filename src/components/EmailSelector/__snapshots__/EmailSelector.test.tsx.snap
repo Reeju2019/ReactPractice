@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Before after Slider Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Button
+      active={false}
+      disabled={false}
+      onClick={[Function]}
+      variant="primary"
+    >
+      Launch
+    </Button>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={true}
+    >
+      <ModalHeader
+        closeButton={true}
+        closeLabel="Close"
+      >
+        <Card
+          body={false}
+          style={
+            Object {
+              "border": "none",
+            }
+          }
+        >
+          <CardTitle>
+            Heading Text
+          </CardTitle>
+          <CardSubtitle
+            className="mb-2 text-muted"
+          >
+            Sub Heading Text
+          </CardSubtitle>
+        </Card>
+      </ModalHeader>
+      <ModalBody>
+        <ForwardRef
+          closeMenuOnSelect={false}
+          components={
+            Object {
+              "ClearIndicator": [Function],
+              "Control": [Function],
+              "CrossIcon": [Function],
+              "DownChevron": [Function],
+              "DropdownIndicator": [Function],
+              "Group": [Function],
+              "GroupHeading": [Function],
+              "IndicatorSeparator": [Function],
+              "IndicatorsContainer": [Function],
+              "Input": [Function],
+              "LoadingIndicator": [Function],
+              "LoadingMessage": [Function],
+              "Menu": [Function],
+              "MenuList": [Function],
+              "MenuPortal": [Function],
+              "MultiValue": [Function],
+              "MultiValueContainer": [Function],
+              "MultiValueLabel": [Function],
+              "MultiValueRemove": [Function],
+              "NoOptionsMessage": [Function],
+              "Option": [Function],
+              "Placeholder": [Function],
+              "SelectContainer": [Function],
+              "SingleValue": [Function],
+              "ValueContainer": [Function],
+            }
+          }
+          isMulti={true}
+          maxMenuHeight={200}
+          onChange={[Function]}
+          onMenuClose={[Function]}
+          onMenuOpen={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "Select All",
+                "value": "Select All",
+              },
+              Object {
+                "label": "undefined - undefined",
+                "value": undefined,
+              },
+              Object {
+                "label": "undefined - undefined",
+                "value": undefined,
+              },
+              Object {
+                "label": "undefined - undefined",
+                "value": undefined,
+              },
+              Object {
+                "label": "undefined - undefined",
+                "value": undefined,
+              },
+              Object {
+                "label": "undefined - undefined",
+                "value": undefined,
+              },
+            ]
+          }
+          placeholder="Enter a Email.."
+          value={null}
+        />
+      </ModalBody>
+      <ModalFooter>
+        <Button
+          active={false}
+          className="sendInviteBtn"
+          disabled={true}
+          onClick={[Function]}
+          variant="primary"
+        >
+          Send Invite
+        </Button>
+      </ModalFooter>
+    </Modal>
+  </React.Fragment>,
+]
+`;

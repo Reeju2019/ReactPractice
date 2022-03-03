@@ -1,0 +1,93 @@
+{
+  "templateCards": [
+    {
+      "id": 1,
+      "imgUrl": "/assets/images/certTempCard01.png",
+      "caption": "Template 01"
+    },
+    {
+      "id": 2,
+      "imgUrl": "/assets/images/certTempCard02.png",
+      "caption": "Template 02"
+    },
+    {
+      "id": 3,
+      "imgUrl": "/assets/images/certTempCard03.png",
+      "caption": "Template 03"
+    }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "companyName": "Company Name",
+      "logoUrl": "/assets/images/company-logo.png",
+      "bgUrl": "/assets/images/certTempBG01.png",
+      "candidateName": "Ketan Kuperkar",
+      "courseName": "Automobile Basics Course - Level II",
+      "duration": "6 months",
+      "authorisationDate": "20th August",
+      "startDate": "17 March",
+      "finishDate": "19 August",
+      "website": "demo.company.website.com",
+      "courseManager": "HEMA PARULKAR",
+      "shareUrl": "https://www.w3schools.com/",
+      "filename": "demo.cert01.pdf",
+      "sharingOptions": [
+        "facebook",
+        "twitter"
+      ],
+      "downloadOptions": {
+        "orientation": "p",
+        "unit": "mm",
+        "format": "a4",
+        "putOnlyUsedFonts": true
+      }
+    },
+    {
+      "id": 2,
+      "companyName": "COMPANY NAME",
+      "logoUrl": "/assets/images/company-logo.png",
+      "bgUrl": "/assets/images/certTempBG02.png",
+      "candidateName": "Ketan Kuperkar",
+      "courseName": "Automobile Basics Course - Level II",
+      "duration": "6 MONTHS",
+      "authorisationDate": "20th August",
+      "startDate": "17 MARCH",
+      "finishDate": "19 AUGUST 2021",
+      "website": "demo.company.website.com",
+      "courseManager": "HEMA PARULKAR",
+      "shareUrl": "https://www.w3schools.com/",
+      "filename": "demo.cert02.pdf",
+      "sharingOptions": [
+        "twitter"
+      ],
+      "downloadOptions": {
+        "orientation": "p",
+        "unit": "mm",
+        "format": "a4",
+        "putOnlyUsedFonts": true
+      }
+    },
+    {
+      "id": 3,
+      "companyName": "Company Name",
+      "logoUrl": "/assets/images/company-logo.png",
+      "bgUrl": "/assets/images/certTempBG03.png",
+      "candidateName": "Ketan Kuperkar",
+      "courseName": "Automobile Basics Course - Level II",
+      "website": "demo.company.website.com",
+      "courseManager": "HEMA PARULKAR",
+      "shareUrl": "https://www.w3schools.com/",
+      "filename": "demo.cert03.pdf",
+      "sharingOptions": [
+        "facebook"
+      ],
+      "downloadOptions": {
+        "orientation": "p",
+        "unit": "mm",
+        "format": "a4",
+        "putOnlyUsedFonts": true
+      }
+    }
+  ]
+}

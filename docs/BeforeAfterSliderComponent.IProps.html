@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> IProps</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">My React components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Classes</h3><ul><li><a href="AlertBox.html">AlertBox</a></li><li><a href="App.html">App</a></li><li><a href="BeforeAfterComponent.html">BeforeAfterComponent</a></li><li><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a></li><li><a href="CarousalItemComponent.html">CarousalItemComponent</a></li><li><a href="CarouselComponent.html">CarouselComponent</a></li><li><a href="CertificateComponent.html">CertificateComponent</a></li><li><a href="Certification.html">Certification</a></li><li><a href="ColumnChart.html">ColumnChart</a></li><li><a href="DoughnutChart.html">DoughnutChart</a></li><li><a href="EmailSelectorComponent.html">EmailSelectorComponent</a></li><li><a href="FailureModal.html">FailureModal</a></li><li><a href="Footer.html">Footer</a></li><li><a href="Header.html">Header</a></li><li><a href="ListGroupComponent.html">ListGroupComponent</a></li><li><a href="PdfGen.html">PdfGen</a></li><li><a href="ReportTable.html">ReportTable</a></li><li><a href="Share.html">Share</a></li><li><a href="SuccessToast.html">SuccessToast</a></li><li><a href="TemplateCard.html">TemplateCard</a></li><li><a href="UploadAsset.html">UploadAsset</a></li><li><a href="UploadBox.html">UploadBox</a></li><li><a href="UploadCard.html">UploadCard</a></li></ul><h3>Interfaces</h3><ul><li><a href="AlertBox.IProps.html">IProps</a></li><li><a href="AlertBox.IState.html">IState</a></li><li><a href="App.IProps.html">IProps</a></li><li><a href="App.IState.html">IState</a></li><li><a href="BeforeAfterSliderComponent.IProps.html">IProps</a></li><li><a href="BeforeAfterSliderComponent.IState.html">IState</a></li><li><a href="CarousalItemComponent.IProps.html">IProps</a></li><li><a href="CarousalItemComponent.IState.html">IState</a></li><li><a href="CarouselComponent.IProps.html">IProps</a></li><li><a href="CarouselComponent.IState.html">IState</a></li><li><a href="CertificateComponent.IProps.html">IProps</a></li><li><a href="CertificateComponent.IState.html">IState</a></li><li><a href="Certification.IProps.html">IProps</a></li><li><a href="Certification.IState.html">IState</a></li><li><a href="ColumnChart.IProps.html">IProps</a></li><li><a href="ColumnChart.IState.html">IState</a></li><li><a href="DoughnutChart.IProps.html">IProps</a></li><li><a href="DoughnutChart.IState.html">IState</a></li><li><a href="EmailSelectorComponent.IProps.html">IProps</a></li><li><a href="EmailSelectorComponent.IState.html">IState</a></li><li><a href="FailureModal.IProps.html">IProps</a></li><li><a href="FailureModal.IState.html">IState</a></li><li><a href="IProps.html">IProps</a></li><li><a href="ListGroupComponent.IProps.html">IProps</a></li><li><a href="ListGroupComponent.IState.html">IState</a></li><li><a href="PdfGen.IProps.html">IProps</a></li><li><a href="PdfGen.IState.html">IState</a></li><li><a href="ReportTable.IProps.html">IProps</a></li><li><a href="ReportTable.IState.html">IState</a></li><li><a href="Share.IProps.html">IProps</a></li><li><a href="Share.IState.html">IState</a></li><li><a href="SuccessToast.IProps.html">IProps</a></li><li><a href="SuccessToast.IState.html">IState</a></li><li><a href="TemplateCard.IProps.html">IProps</a></li><li><a href="TemplateCard.IState.html">IState</a></li><li><a href="UploadAsset.IProps.html">IProps</a></li><li><a href="UploadAsset.IState.html">IState</a></li><li><a href="UploadBox.IProps.html">IProps</a></li><li><a href="UploadBox.IState.html">IState</a></li><li><a href="UploadCard.IProps.html">IProps</a></li><li><a href="UploadCard.IState.html">IState</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Interface</p>
+                    <h1>IProps</h1>
+                </header>
+                
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a>.</span>IProps</h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">Props of BeforeAfterSlider component</div>
+        
+
+        
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+<div class="table-container">
+    <table class="props table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>data</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">any</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Config data</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>aspectRatio</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">"taller"</span>
+|
+
+<span class="param-type">"wider"</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Which to choose if the aspect ratios of the images are different</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>handle</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">any</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Custom handle element. Just pass <React.Fragment /> if you want to remove handle.</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>handleSize</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">number</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">diameter of slider handle (by pixel)</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>hover</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">boolean</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Whether to slide at hover</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>leftImage</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">left image's url</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>leftImageAlt</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">alt props for left image</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>leftImageCss</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">object</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Additional css for left image</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>leftImageLabel</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Label for the image (e.g. before)</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>onSliderPositionChange</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">any</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Callback function called each time the slider changes. The position (0 to 1) of the slider is passed as arg</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>rightImage</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">right image's url</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>rightImageAlt</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">alt props for right image</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>rightImageCss</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">object</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Additional css for right image</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>rightImageLabel</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Label for the image (e.g. after)</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>skeleton</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">any</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Element displayed while image is loading</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>sliderLineColor</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">string</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">line color of slider</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>sliderLineWidth</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">number</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">line width of slider (by pixel)</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>sliderPositionPercentage</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">number</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Default line position (from 0 to 1)</td>
+</tr>
+
+        
+            
+<tr class="deep-level-0">
+    
+        <td class="name"><code>vertical</code></td>
+    
+
+    <td class="type">
+    
+        
+<span class="param-type">booblean</span>
+
+
+    
+    </td>
+
+    
+
+    
+
+    <td class="description last">Compare images vertically instead of horizontally. The left image is on the top and the right image is on the bottom.</td>
+</tr>
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="components_BeforeAfterSliderComponent_BeforeAfterSliderComponent.tsx.html" class="button">View Source</a>
+            <span>
+                <a href="components_BeforeAfterSliderComponent_BeforeAfterSliderComponent.tsx.html">components/BeforeAfterSliderComponent/BeforeAfterSliderComponent.tsx</a>, <a href="components_BeforeAfterSliderComponent_BeforeAfterSliderComponent.tsx.html#line33">line 33</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+        
+    
+    </div>
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

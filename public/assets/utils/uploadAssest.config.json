@@ -1,0 +1,5 @@
+{
+  "supportedFileTypes": "image/jpeg,image/png,audio/mpeg,video/mp4,video/x-flv,video/mpeg,video/3gpp,glb",
+  "supportedMaxFileSize": 25000,
+  "multiFileUpload": true
+}

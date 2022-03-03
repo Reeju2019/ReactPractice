@@ -1,0 +1,76 @@
+{
+  "layout": {
+    "header": {
+      "xs": 9,
+      "sm": 8,
+      "md": 6,
+      "lg": 6
+    },
+    "dropdown": {
+      "xs": 3,
+      "sm": 4,
+      "md": 6,
+      "lg": 6
+    },
+    "chart": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    }
+  },
+  "data": [
+    {
+      "modelName": "model1",
+      "labels": ["A+", "A", "B", "C", "D", "E"],
+      "datasets": [
+        {
+          "label": "",
+          "backgroundColor": "green",
+          "barThickness": 20,
+          "maxBarThickness": 25,
+          "minBarLength": 20,
+          "barPercentage": 1.0,
+          "categoryPercentage": 1.0,
+          "data": [10, 20, 30, 40, 50, 60]
+        }
+      ]
+    },
+    {
+      "modelName": "model2",
+      "labels": ["Aa+", "Aa", "Bb", "Cc", "Dd", "Ee"],
+      "datasets": [
+        {
+          "label": "",
+          "backgroundColor": "#000",
+          "barThickness": 20,
+          "maxBarThickness": 25,
+          "minBarLength": 20,
+          "barPercentage": 1.0,
+          "categoryPercentage": 1.0,
+          "data": [10, 20, 30, 40, 50, 60]
+        }
+      ]
+    },
+    {
+      "modelName": "model3",
+      "labels": ["A*", "A+", "B*"],
+      "datasets": [
+        {
+          "label": "",
+          "backgroundColor": "#a1a1a1",
+          "barThickness": 20,
+          "maxBarThickness": 25,
+          "minBarLength": 20,
+          "barPercentage": 1.0,
+          "categoryPercentage": 1.0,
+          "data": [10, 20, 30]
+        }
+      ]
+    }
+  ],
+  "options": {
+    "responsive": true
+  },
+  "multiple": false
+}

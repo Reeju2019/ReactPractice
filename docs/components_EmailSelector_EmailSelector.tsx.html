@@ -1,0 +1,389 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/EmailSelector/EmailSelector.tsx</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">My React components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Classes</h3><ul><li><a href="AlertBox.html">AlertBox</a></li><li><a href="App.html">App</a></li><li><a href="BeforeAfterComponent.html">BeforeAfterComponent</a></li><li><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a></li><li><a href="CarousalItemComponent.html">CarousalItemComponent</a></li><li><a href="CarouselComponent.html">CarouselComponent</a></li><li><a href="CertificateComponent.html">CertificateComponent</a></li><li><a href="Certification.html">Certification</a></li><li><a href="ColumnChart.html">ColumnChart</a></li><li><a href="DoughnutChart.html">DoughnutChart</a></li><li><a href="EmailSelectorComponent.html">EmailSelectorComponent</a></li><li><a href="FailureModal.html">FailureModal</a></li><li><a href="Footer.html">Footer</a></li><li><a href="Header.html">Header</a></li><li><a href="ListGroupComponent.html">ListGroupComponent</a></li><li><a href="PdfGen.html">PdfGen</a></li><li><a href="ReportTable.html">ReportTable</a></li><li><a href="Share.html">Share</a></li><li><a href="SuccessToast.html">SuccessToast</a></li><li><a href="TemplateCard.html">TemplateCard</a></li><li><a href="UploadAsset.html">UploadAsset</a></li><li><a href="UploadBox.html">UploadBox</a></li><li><a href="UploadCard.html">UploadCard</a></li></ul><h3>Interfaces</h3><ul><li><a href="AlertBox.IProps.html">IProps</a></li><li><a href="AlertBox.IState.html">IState</a></li><li><a href="App.IProps.html">IProps</a></li><li><a href="App.IState.html">IState</a></li><li><a href="BeforeAfterSliderComponent.IProps.html">IProps</a></li><li><a href="BeforeAfterSliderComponent.IState.html">IState</a></li><li><a href="CarousalItemComponent.IProps.html">IProps</a></li><li><a href="CarousalItemComponent.IState.html">IState</a></li><li><a href="CarouselComponent.IProps.html">IProps</a></li><li><a href="CarouselComponent.IState.html">IState</a></li><li><a href="CertificateComponent.IProps.html">IProps</a></li><li><a href="CertificateComponent.IState.html">IState</a></li><li><a href="Certification.IProps.html">IProps</a></li><li><a href="Certification.IState.html">IState</a></li><li><a href="ColumnChart.IProps.html">IProps</a></li><li><a href="ColumnChart.IState.html">IState</a></li><li><a href="DoughnutChart.IProps.html">IProps</a></li><li><a href="DoughnutChart.IState.html">IState</a></li><li><a href="EmailSelectorComponent.IProps.html">IProps</a></li><li><a href="EmailSelectorComponent.IState.html">IState</a></li><li><a href="FailureModal.IProps.html">IProps</a></li><li><a href="FailureModal.IState.html">IState</a></li><li><a href="IProps.html">IProps</a></li><li><a href="ListGroupComponent.IProps.html">IProps</a></li><li><a href="ListGroupComponent.IState.html">IState</a></li><li><a href="PdfGen.IProps.html">IProps</a></li><li><a href="PdfGen.IState.html">IState</a></li><li><a href="ReportTable.IProps.html">IProps</a></li><li><a href="ReportTable.IState.html">IState</a></li><li><a href="Share.IProps.html">IProps</a></li><li><a href="Share.IState.html">IState</a></li><li><a href="SuccessToast.IProps.html">IProps</a></li><li><a href="SuccessToast.IState.html">IState</a></li><li><a href="TemplateCard.IProps.html">IProps</a></li><li><a href="TemplateCard.IState.html">IState</a></li><li><a href="UploadAsset.IProps.html">IProps</a></li><li><a href="UploadAsset.IState.html">IState</a></li><li><a href="UploadBox.IProps.html">IProps</a></li><li><a href="UploadBox.IState.html">IState</a></li><li><a href="UploadCard.IProps.html">IProps</a></li><li><a href="UploadCard.IState.html">IState</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/EmailSelector/EmailSelector.tsx</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react";
+import Select from "react-select";
+import makeAnimated from "react-select/animated";
+import { Button, Card, Modal } from "react-bootstrap";
+
+import "./styles.scss";
+
+/**
+ * @description Props of Email Selector Component
+ * @memberof EmailSelectorComponent
+ * @property {any} options - options
+ * @property {any} sendInviteHandler - send invite handler
+ */
+/* eslint-disable */
+interface IProps {
+  options: any;
+  sendInviteHandler: any;
+}
+
+/**
+ * @description States of Email Selector Component
+ * @memberof EmailSelectorComponent
+ * @property {booblean} show - show
+ * @property {any} options - options
+ * @property {any} optionSelected - option selected
+ * @property {booblean} selectAll - select all
+ * @property {number} maxmenuHeight - max menu height
+ */
+/* eslint-disable */
+interface IState {
+  show: boolean;
+  options: any;
+  optionSelected: any;
+  selectAll: boolean;
+  maxmenuHeight: number;
+}
+
+/**
+ * @component
+ * This component was used in App component
+ * @description Email Selector Component
+ */
+class EmailSelectorComponent extends React.Component&lt;IProps, IState> {
+  modalRef: any;
+
+  state: IState = {
+    show: true,
+    options: null,
+    optionSelected: null,
+    selectAll: false,
+    maxmenuHeight: 200,
+  };
+
+  animatedComponents = makeAnimated();
+
+  selectedOption = [
+    {
+      value: "Select All",
+      label: "Select All",
+    },
+  ];
+
+  /**
+   * @constructor
+   * @description Constructor
+   */
+  constructor(props: IProps) {
+    super(props);
+    this.bindThisToMethods = this.bindThisToMethods.bind(this);
+    this.bindThisToMethods();
+    this.modalRef = React.createRef();
+  }
+
+  /**
+   * @description Bind all the methods to this
+   * @property {Function} bindThisToMethods Bind This To Method
+   * @returns void
+   */
+  bindThisToMethods() {
+    this.handleClose = this.handleClose.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+    this.sendInvite = this.sendInvite.bind(this);
+    this.setOptions = this.setOptions.bind(this);
+    this.setModalHeight = this.setModalHeight.bind(this);
+  }
+
+  /**
+   * @description Handle change
+   * @property {function} handleChange Handle change
+   * @param {object} option Selected option
+   * @return {object} Selected option
+   */
+  handleChange = (selected) => {
+    selected.filter((item) => item.label === "Select All").length
+      ? this.setState({
+          optionSelected: this.state.options.slice(
+            1,
+            this.state.options.length
+          ),
+          selectAll: true,
+        })
+      : this.setState({
+          optionSelected: selected.map((item) => {
+            return {
+              value: item.value,
+              label: item.label.split("- ")[1] || item.label,
+            };
+          }),
+          selectAll: false,
+        });
+
+    if (selected.filter((item) => item.label === "Select All").length) {
+      this.modalRef.current.style.minHeight = "100px";
+      this.setState({ maxmenuHeight: 50 });
+    }
+  };
+
+  /**
+   * @description Send Invite Handler
+   * @property {function} sendInviteHandler Send invite handler
+   * @return {void}
+   */
+  sendInvite() {
+    this.props.sendInviteHandler(this.state.optionSelected, this.state.options);
+    this.setState({ optionSelected: [] });
+  }
+
+  /**
+   * @description Close modal
+   * @property {function} closeHandler Close handler
+   * @return {void}
+   */
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  /**
+   * @description Show modal
+   * @property {function} openHandler Open handler
+   * @return {void}
+   */
+  handleShow() {
+    this.setState({ show: true });
+  }
+
+  /**
+   * @description Set options
+   * @property {function} setOptions Set options
+   * @return {object} Select all options
+   */
+  setOptions() {
+    const tmp = this.props.options.map((item) => {
+      return {
+        value: item.email,
+        label: `${item.name} - ${item.email}`,
+      };
+    });
+
+    return [{ value: "Select All", label: "Select All" }, ...tmp];
+  }
+
+  /**
+   * @description Set modal height
+   * @property {function} setModalHeight Set modal height
+   * @param {boolean} isMenuOpen Is menu open
+   * @return {void}
+   */
+  setModalHeight(isMenuOpen) {
+    const OFFSET = 100;
+    const newHeight = `${isMenuOpen ? this.state.maxmenuHeight + OFFSET : 0}px`;
+    this.modalRef.current.style.minHeight = newHeight;
+  }
+
+  /**
+   * @description Render
+   * @property {function} componentDidUpdate Component did update
+   * @param {object} prevProps Previous props
+   * @param {object} prevState Previous state
+   * @param {object} snapshot Snapshot
+   * @return {void}
+   */
+  componentDidUpdate(
+    prevProps: Readonly&lt;IProps>,
+    prevState: Readonly&lt;IState>,
+    snapshot?: any
+  ): void {
+    if (prevState.optionSelected?.length === this.state.optionSelected?.length)
+      return;
+
+    const dropDownListLength =
+      this.state.options.length - this.state.optionSelected.length;
+
+    if (dropDownListLength > 5) this.setModalHeight(true);
+
+    if (this.state.optionSelected.length === 0) {
+      this.setState({ maxmenuHeight: 200 });
+      this.modalRef.current.style.minHeight = "300px";
+    }
+  }
+
+  /**
+   * @description render
+   * @property {function} componentDidMount Component did mount
+   * @return {void}
+   */
+  componentDidMount(): void {
+    this.setState({ options: this.setOptions() });
+  }
+
+  render() {
+    return (
+      this.state.options &amp;&amp; (
+        &lt;>
+          &lt;Button variant="primary" onClick={this.handleShow}>
+            Launch
+          &lt;/Button>
+
+          &lt;Modal show={this.state.show} onHide={this.handleClose}>
+            &lt;Modal.Header closeButton>
+              &lt;Card style={{ border: "none" }}>
+                &lt;Card.Title>Heading Text&lt;/Card.Title>
+                &lt;Card.Subtitle className="mb-2 text-muted">
+                  Sub Heading Text
+                &lt;/Card.Subtitle>
+              &lt;/Card>
+            &lt;/Modal.Header>
+            &lt;Modal.Body ref={this.modalRef}>
+              &lt;Select
+                placeholder={"Enter a Email.."}
+                options={
+                  this.state.selectAll
+                    ? [this.state.options[0]]
+                    : this.state.options
+                }
+                value={
+                  this.state.selectAll
+                    ? this.selectedOption
+                    : this.state.optionSelected
+                }
+                components={this.animatedComponents}
+                isMulti={true}
+                closeMenuOnSelect={false}
+                onChange={this.handleChange}
+                onMenuOpen={() => this.setModalHeight(true)}
+                onMenuClose={() => this.setModalHeight(false)}
+                maxMenuHeight={this.state.maxmenuHeight}
+              />
+            &lt;/Modal.Body>
+            &lt;Modal.Footer>
+              &lt;Button
+                className="sendInviteBtn"
+                variant="primary"
+                onClick={this.sendInvite}
+                disabled={this.state.optionSelected?.length ? false : true}
+              >
+                Send Invite
+              &lt;/Button>
+            &lt;/Modal.Footer>
+          &lt;/Modal>
+        &lt;/>
+      )
+    );
+  }
+}
+
+export default EmailSelectorComponent;
+
+export { EmailSelectorComponent };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

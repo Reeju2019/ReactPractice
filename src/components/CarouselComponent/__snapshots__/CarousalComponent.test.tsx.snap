@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      style={
+        Object {
+          "display": "block",
+          "padding": 30,
+          "width": "100%",
+        }
+      }
+    >
+      <Carousel
+        activeIndex={0}
+        bsPrefix="carousel"
+        controls={true}
+        defaultActiveIndex={0}
+        fade={false}
+        indicatorLabels={Array []}
+        indicators={true}
+        interval={5000}
+        keyboard={true}
+        nextIcon={
+          <span
+            aria-hidden="true"
+            className="carousel-control-next-icon"
+          />
+        }
+        nextLabel="Next"
+        onSelect={[Function]}
+        onSlid={[Function]}
+        onSlide={[Function]}
+        pause="hover"
+        prevIcon={
+          <span
+            aria-hidden="true"
+            className="carousel-control-prev-icon"
+          />
+        }
+        prevLabel="Previous"
+        slide={true}
+        touch={true}
+        variant={null}
+        wrap={true}
+      >
+        <CarouselItem
+          interval={5000}
+        >
+          <CarousalItemComponent
+            alt="Image One label"
+            button={null}
+            caption="Nulla vitae elit libero, a pharetra augue mollis interdum."
+            defaultInterval={5000}
+            header="First slide label"
+            img="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+            textArea={null}
+            textAreaHandler={[Function]}
+          />
+        </CarouselItem>
+        <CarouselItem
+          interval={5000}
+        >
+          <CarousalItemComponent
+            alt="Image two label"
+            button="button"
+            caption="Nulla vitae elit libero, a pharetra augue mollis interdum."
+            defaultInterval={5000}
+            header="2 slide label"
+            img="/assets/images/carousel-2.jfif"
+            textArea="textArea"
+            textAreaHandler={[Function]}
+          />
+        </CarouselItem>
+        <CarouselItem
+          interval={5000}
+        >
+          <CarousalItemComponent
+            alt="Image 3 labelll"
+            button={null}
+            caption="Nulla vitae elit libero, a pharetra augue mollis interdum."
+            defaultInterval={5000}
+            header="3 slide label"
+            img={null}
+            textArea={null}
+            textAreaHandler={[Function]}
+          />
+        </CarouselItem>
+      </Carousel>
+    </Row>
+  </React.Fragment>,
+]
+`;

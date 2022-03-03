@@ -1,0 +1,74 @@
+$bgColor: #f1f1f1;
+
+.drag-sec {
+  position: relative;
+  z-index: 1;
+  .drop-box {
+    background-color: $bgColor;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+
+.drop-box:focus {
+  background-color: yellow;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.show-progressbar-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  svg.cus-close {
+    fill: #ff42ed;
+  }
+}
+.show-drop-images {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 95%;
+  overflow: hidden;
+  text-align: left;
+}
+
+.drag-over {
+  background-color: #dcdcdc !important;
+}
+
+.drag-leave {
+  background-color: #f1f1f1 !important;
+}
+
+.alert-box {
+  min-height: 30px;
+  margin-top: 2rem;
+  visibility: hidden;
+}
+
+.alert-box--active {
+  background-color: #fca59f;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.close-button:hover {
+  background: rgba(255, 132, 132, 0.7);
+}
+
+.input-file input {
+  position: absolute;
+  top: 0px;
+  margin-top: 1rem;
+  left: 0;
+  background-color: $bgColor;
+  min-height: 300px;
+  opacity: 0;
+  z-index: 1000;
+}

@@ -1,0 +1,362 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/ReportTable/ReportTable.tsx</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">My React components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Classes</h3><ul><li><a href="AlertBox.html">AlertBox</a></li><li><a href="App.html">App</a></li><li><a href="BeforeAfterComponent.html">BeforeAfterComponent</a></li><li><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a></li><li><a href="CarousalItemComponent.html">CarousalItemComponent</a></li><li><a href="CarouselComponent.html">CarouselComponent</a></li><li><a href="CertificateComponent.html">CertificateComponent</a></li><li><a href="Certification.html">Certification</a></li><li><a href="ColumnChart.html">ColumnChart</a></li><li><a href="DoughnutChart.html">DoughnutChart</a></li><li><a href="EmailSelectorComponent.html">EmailSelectorComponent</a></li><li><a href="FailureModal.html">FailureModal</a></li><li><a href="Footer.html">Footer</a></li><li><a href="Header.html">Header</a></li><li><a href="ListGroupComponent.html">ListGroupComponent</a></li><li><a href="PdfGen.html">PdfGen</a></li><li><a href="ReportTable.html">ReportTable</a></li><li><a href="Share.html">Share</a></li><li><a href="SuccessToast.html">SuccessToast</a></li><li><a href="TemplateCard.html">TemplateCard</a></li><li><a href="UploadAsset.html">UploadAsset</a></li><li><a href="UploadBox.html">UploadBox</a></li><li><a href="UploadCard.html">UploadCard</a></li></ul><h3>Interfaces</h3><ul><li><a href="AlertBox.IProps.html">IProps</a></li><li><a href="AlertBox.IState.html">IState</a></li><li><a href="App.IProps.html">IProps</a></li><li><a href="App.IState.html">IState</a></li><li><a href="BeforeAfterSliderComponent.IProps.html">IProps</a></li><li><a href="BeforeAfterSliderComponent.IState.html">IState</a></li><li><a href="CarousalItemComponent.IProps.html">IProps</a></li><li><a href="CarousalItemComponent.IState.html">IState</a></li><li><a href="CarouselComponent.IProps.html">IProps</a></li><li><a href="CarouselComponent.IState.html">IState</a></li><li><a href="CertificateComponent.IProps.html">IProps</a></li><li><a href="CertificateComponent.IState.html">IState</a></li><li><a href="Certification.IProps.html">IProps</a></li><li><a href="Certification.IState.html">IState</a></li><li><a href="ColumnChart.IProps.html">IProps</a></li><li><a href="ColumnChart.IState.html">IState</a></li><li><a href="DoughnutChart.IProps.html">IProps</a></li><li><a href="DoughnutChart.IState.html">IState</a></li><li><a href="EmailSelectorComponent.IProps.html">IProps</a></li><li><a href="EmailSelectorComponent.IState.html">IState</a></li><li><a href="FailureModal.IProps.html">IProps</a></li><li><a href="FailureModal.IState.html">IState</a></li><li><a href="IProps.html">IProps</a></li><li><a href="ListGroupComponent.IProps.html">IProps</a></li><li><a href="ListGroupComponent.IState.html">IState</a></li><li><a href="PdfGen.IProps.html">IProps</a></li><li><a href="PdfGen.IState.html">IState</a></li><li><a href="ReportTable.IProps.html">IProps</a></li><li><a href="ReportTable.IState.html">IState</a></li><li><a href="Share.IProps.html">IProps</a></li><li><a href="Share.IState.html">IState</a></li><li><a href="SuccessToast.IProps.html">IProps</a></li><li><a href="SuccessToast.IState.html">IState</a></li><li><a href="TemplateCard.IProps.html">IProps</a></li><li><a href="TemplateCard.IState.html">IState</a></li><li><a href="UploadAsset.IProps.html">IProps</a></li><li><a href="UploadAsset.IState.html">IState</a></li><li><a href="UploadBox.IProps.html">IProps</a></li><li><a href="UploadBox.IState.html">IState</a></li><li><a href="UploadCard.IProps.html">IProps</a></li><li><a href="UploadCard.IState.html">IState</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/ReportTable/ReportTable.tsx</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react";
+import { Col, FormLabel, Row, Image, Form } from "react-bootstrap";
+import { AgGridReact } from "ag-grid-react";
+
+import "ag-grid-community/dist/styles/ag-grid.css";
+import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+import "./styles.scss";
+import ReactTooltip from "react-tooltip";
+
+/**
+ * @description Props of ReportTable Component
+ * @memberof ReportTable
+ * @property {any} localeConfig Set the locale config data
+ * @property {any} reportTableConfig Set the report table config data
+ * @property {any} viewDetails Set the view details URL
+ * @property {string} header Set the header text
+ * @property {string} headerLogo Set the header logo URL
+ * @property {any} layout Set the layout
+ * @property {any} dropdownHandler Custom function to handler dropdown
+ * @property {number} height Set the height of the table
+ * @property {booblean} isLink Set true if their is a link in 4th column else set to false
+ */
+/* eslint-disable */
+interface IProps {
+  localeConfig: any;
+  reportTableConfig: any;
+  viewDetails: any;
+  header: string;
+  headerLogo: string;
+  layout: any;
+  dropdownHandler: any;
+  height?: number;
+  isLink?: boolean;
+}
+
+/**
+ * @description States of ReportTable Component
+ * @memberof ReportTable
+ * @property {any} reportTableConfig Set the report table config data
+ * @property {number} activeRowData Set the active row index
+ * @property {number} recentRowSelection Set the recent row selection index
+ */
+/* eslint-disable */
+interface IState {
+  reportTableConfig: any;
+  activeRowData: number;
+  recentRowSelection: number;
+}
+
+/**
+ * @component
+ * This component was used in App component
+ * @description ReportTable component
+ */
+class ReportTable extends React.Component&lt;IProps, IState> {
+  HEADER_HEIGHT = 65;
+  CELL_HEIGHT = 43;
+
+  state: IState = {
+    reportTableConfig: null,
+    activeRowData: 0,
+    recentRowSelection: -1,
+  };
+
+  /**
+   * @constructor
+   * @description ReportTable component
+   * @param {IProps} props Props
+   * @returns {void}
+   */
+  constructor(props: any) {
+    super(props);
+    this.bindThisToMethods = this.bindThisToMethods.bind(this);
+    this.bindThisToMethods();
+  }
+
+  /**
+   * @description Bind all the methods to this
+   * @property {Function} bindThisToMethods Bind This To Methods
+   * @returns void
+   */
+  bindThisToMethods() {
+    this.setConfig = this.setConfig.bind(this);
+    this.rowClickHandler = this.rowClickHandler.bind(this);
+    this.tableHeight = this.tableHeight.bind(this);
+  }
+
+  /**
+   * @description Veturns the height of the table
+   * @property {function} tableHeight Table Height
+   * @memberof ReportTable
+   * @returns {number}
+   */
+  tableHeight() {
+    const rowsCount = this.props.reportTableConfig.rowData.length;
+    return this.HEADER_HEIGHT + rowsCount * this.CELL_HEIGHT;
+  }
+
+  /**
+   * @description Set state according to the json configuration
+   * @property {Function} setConfig Set Config
+   * @returns {void}
+   */
+  setConfig() {
+    const data = this.props.reportTableConfig;
+    const newData = {
+      ...data,
+      columnDefs: data.columnDefs.map((col: any) => {
+        return {
+          ...col,
+          headerTooltip: col.headerTooltip ?? col.headerName,
+        };
+      }),
+    };
+    this.setState({ reportTableConfig: newData });
+  }
+
+  /**
+   * @description Handles the row click event
+   * @property {function} rowClickHandler Row Click Handler
+   * @param {Event} CellClickedEvent Cell Clicked Event
+   * @memberof ReportTable
+   * @returns {void}
+   */
+  rowClickHandler(CellClickedEvent) {
+    const rowIndex = CellClickedEvent.node.rowIndex;
+
+    this.state.recentRowSelection === rowIndex
+      ? CellClickedEvent.event.target.parentElement.classList.remove(
+          "ag-row-selected"
+        )
+      : CellClickedEvent.event.target.parentElement.classList.add(
+          "ag-row-selected"
+        );
+
+    this.setState({
+      recentRowSelection:
+        this.state.recentRowSelection === rowIndex ? -1 : rowIndex,
+    });
+
+    this.props.viewDetails(CellClickedEvent, this.props.isLink ?? true);
+  }
+
+  /**
+   * @description The state will be set to the json configuration here
+   * @property {function} componentDidMount Component Did Mount
+   * @memberof ReportTable
+   */
+  componentDidMount() {
+    this.setConfig();
+  }
+
+  render() {
+    const getRowClass = (params: any) => {
+      return this.props.isLink ?? true ? "link-row" : "no-link-row";
+    };
+    return (
+      &lt;>
+        {this.state.reportTableConfig &amp;&amp; (
+          &lt;Row className="rchart-container-border m-5 m-5">
+            &lt;Row className="rchart-border-bottom py-2 ps-4">
+              &lt;Col
+                xs={this.props.layout.header.xs}
+                sm={this.props.layout.header.sm}
+                md={this.props.layout.header.md}
+                lg={this.props.layout.header.lg}
+                className="strong text-start pt-2"
+                data-tip
+                data-for="headerTip"
+              >
+                &lt;Image className="pe-2" src={this.props.headerLogo}>&lt;/Image>
+                {this.props.header}
+                &lt;ReactTooltip id="headerTip" place="bottom" effect="solid">
+                  {this.props.header}
+                &lt;/ReactTooltip>
+              &lt;/Col>
+              &lt;Col
+                xs={this.props.layout.dropdown.xs}
+                sm={this.props.layout.dropdown.sm}
+                md={this.props.layout.dropdown.md}
+                lg={this.props.layout.dropdown.lg}
+              >
+                &lt;Form.Select
+                  className="dropdown-select"
+                  aria-label="Default select example"
+                  onChange={this.props.dropdownHandler}
+                >
+                  {this.props.reportTableConfig.dropdownData?.map(
+                    (item: any) => (
+                      &lt;option key={item.id}>{item.name}&lt;/option>
+                    )
+                  )}
+                &lt;/Form.Select>
+              &lt;/Col>
+              &lt;Col
+                xs={this.props.layout.viewAll.xs}
+                sm={this.props.layout.viewAll.sm}
+                md={this.props.layout.viewAll.md}
+                lg={this.props.layout.viewAll.lg}
+                className="pt-2"
+              >
+                &lt;FormLabel
+                  onClick={() => window.open("", "_blank")}
+                  style={{ cursor: "pointer" }}
+                  className="mylink"
+                >
+                  {this.props.localeConfig.reportTable_viewAll}
+                &lt;/FormLabel>
+              &lt;/Col>
+            &lt;/Row>
+
+            &lt;Col
+              id="agGridRoportTable"
+              className="ag-theme-alpine"
+              xs={this.props.layout.table.xs}
+              sm={this.props.layout.table.sm}
+              md={this.props.layout.table.md}
+              lg={this.props.layout.table.lg}
+              style={{ height: `${this.props.height ?? this.tableHeight()}px` }}
+            >
+              &lt;AgGridReact
+                getRowClass={getRowClass}
+                suppressRowHoverHighlight={true}
+                onCellClicked={(CellClickedEvent) =>
+                  this.rowClickHandler(CellClickedEvent)
+                }
+                rowData={this.state.reportTableConfig.rowData}
+                columnDefs={this.state.reportTableConfig.columnDefs}
+                rowSelection={this.state.reportTableConfig.rowSelection}
+                enableBrowserTooltips={true}
+              />
+            &lt;/Col>
+          &lt;/Row>
+        )}
+      &lt;/>
+    );
+  }
+}
+
+export default ReportTable;
+export { ReportTable };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

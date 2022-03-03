@@ -1,0 +1,115 @@
+{
+  "ColumnData": [
+    {
+      "value": "About Kraft Henz",
+      "disabled": false,
+      "active": false,
+      "onClick": false,
+      "type": "about"
+    },
+    {
+      "value": "Terms of use",
+      "disabled": true,
+      "active": true,
+      "onClick": true,
+      "type": "home"
+    },
+    {
+      "value": "Investor Relations",
+      "disabled": true,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Privacy Policy",
+      "disabled": false,
+      "active": true,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Contact Us",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Careers",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Interested based Ads",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "A.1",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Baker's Chocolate",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Caramels",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Clauset's Chocolate",
+      "disabled": false,
+      "active": false,
+      "onClick": true
+    },
+    {
+      "value": "Cool Whip",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Good Seasons",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Jet-Puffed",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Kraft Heinz",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    },
+    {
+      "value": "Kraft Cheese",
+      "disabled": false,
+      "active": false,
+      "onClick": true,
+      "type": "about"
+    }
+  ]
+}

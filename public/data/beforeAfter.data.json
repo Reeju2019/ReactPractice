@@ -1,0 +1,14 @@
+{
+  "image1": {
+    "id": 1,
+    "img": "https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png",
+    "alt": "Image One label",
+    "header": "First slide label"
+  },
+  "image2": {
+    "id": 2,
+    "img": "/assets/images/carousel-2.jfif",
+    "alt": "Image two label",
+    "header": "Second slide label"
+  }
+}

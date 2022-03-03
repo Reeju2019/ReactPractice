@@ -1,0 +1,1 @@
+export { BeforeAfterSliderComponent } from "./BeforeAfterSliderComponent";

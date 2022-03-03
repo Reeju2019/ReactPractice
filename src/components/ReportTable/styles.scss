@@ -1,0 +1,56 @@
+.mylink {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+.ag-theme-alpine {
+  .ag-ltr {
+    .ag-cell {
+      text-align: left;
+    }
+  }
+  .ag-row {
+    // border: 0;
+    .ag-ltr {
+      .ag-cell {
+        text-align: left;
+      }
+    }
+  }
+}
+.ag-theme-alpine {
+  .ag-root-wrapper {
+    border: 0;
+    .ag-header {
+      // border: 0;
+    }
+  }
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.link-row .ag-cell:last-child {
+  text-decoration: underline;
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.no-link-row .ag-cell:last-child {
+  text-decoration: none;
+  color: black;
+}
+
+.ag-header-viewport {
+  background-color: white;
+}
+
+.rchart-container-border {
+  border: #dcdcdc solid;
+  width: 50%;
+}
+
+.rchart-border-bottom {
+  border-bottom: #dcdcdc solid;
+  margin: 0;
+}

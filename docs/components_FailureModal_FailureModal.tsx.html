@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/FailureModal/FailureModal.tsx</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">My React components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Classes</h3><ul><li><a href="AlertBox.html">AlertBox</a></li><li><a href="App.html">App</a></li><li><a href="BeforeAfterComponent.html">BeforeAfterComponent</a></li><li><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a></li><li><a href="CarousalItemComponent.html">CarousalItemComponent</a></li><li><a href="CarouselComponent.html">CarouselComponent</a></li><li><a href="CertificateComponent.html">CertificateComponent</a></li><li><a href="Certification.html">Certification</a></li><li><a href="ColumnChart.html">ColumnChart</a></li><li><a href="DoughnutChart.html">DoughnutChart</a></li><li><a href="EmailSelectorComponent.html">EmailSelectorComponent</a></li><li><a href="FailureModal.html">FailureModal</a></li><li><a href="Footer.html">Footer</a></li><li><a href="Header.html">Header</a></li><li><a href="ListGroupComponent.html">ListGroupComponent</a></li><li><a href="PdfGen.html">PdfGen</a></li><li><a href="ReportTable.html">ReportTable</a></li><li><a href="Share.html">Share</a></li><li><a href="SuccessToast.html">SuccessToast</a></li><li><a href="TemplateCard.html">TemplateCard</a></li><li><a href="UploadAsset.html">UploadAsset</a></li><li><a href="UploadBox.html">UploadBox</a></li><li><a href="UploadCard.html">UploadCard</a></li></ul><h3>Interfaces</h3><ul><li><a href="AlertBox.IProps.html">IProps</a></li><li><a href="AlertBox.IState.html">IState</a></li><li><a href="App.IProps.html">IProps</a></li><li><a href="App.IState.html">IState</a></li><li><a href="BeforeAfterSliderComponent.IProps.html">IProps</a></li><li><a href="BeforeAfterSliderComponent.IState.html">IState</a></li><li><a href="CarousalItemComponent.IProps.html">IProps</a></li><li><a href="CarousalItemComponent.IState.html">IState</a></li><li><a href="CarouselComponent.IProps.html">IProps</a></li><li><a href="CarouselComponent.IState.html">IState</a></li><li><a href="CertificateComponent.IProps.html">IProps</a></li><li><a href="CertificateComponent.IState.html">IState</a></li><li><a href="Certification.IProps.html">IProps</a></li><li><a href="Certification.IState.html">IState</a></li><li><a href="ColumnChart.IProps.html">IProps</a></li><li><a href="ColumnChart.IState.html">IState</a></li><li><a href="DoughnutChart.IProps.html">IProps</a></li><li><a href="DoughnutChart.IState.html">IState</a></li><li><a href="EmailSelectorComponent.IProps.html">IProps</a></li><li><a href="EmailSelectorComponent.IState.html">IState</a></li><li><a href="FailureModal.IProps.html">IProps</a></li><li><a href="FailureModal.IState.html">IState</a></li><li><a href="IProps.html">IProps</a></li><li><a href="ListGroupComponent.IProps.html">IProps</a></li><li><a href="ListGroupComponent.IState.html">IState</a></li><li><a href="PdfGen.IProps.html">IProps</a></li><li><a href="PdfGen.IState.html">IState</a></li><li><a href="ReportTable.IProps.html">IProps</a></li><li><a href="ReportTable.IState.html">IState</a></li><li><a href="Share.IProps.html">IProps</a></li><li><a href="Share.IState.html">IState</a></li><li><a href="SuccessToast.IProps.html">IProps</a></li><li><a href="SuccessToast.IState.html">IState</a></li><li><a href="TemplateCard.IProps.html">IProps</a></li><li><a href="TemplateCard.IState.html">IState</a></li><li><a href="UploadAsset.IProps.html">IProps</a></li><li><a href="UploadAsset.IState.html">IState</a></li><li><a href="UploadBox.IProps.html">IProps</a></li><li><a href="UploadBox.IState.html">IState</a></li><li><a href="UploadCard.IProps.html">IProps</a></li><li><a href="UploadCard.IState.html">IState</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/FailureModal/FailureModal.tsx</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react";
+import {
+  Col,
+  Row,
+  Container,
+  FormLabel,
+  Button,
+  Image,
+  Modal,
+} from "react-bootstrap";
+
+import "./styles.scss";
+
+/**
+ * @description Props of Failure Model Component
+ * @memberof FailureModal
+ * @property {string} logo Logo URL
+ * @property {string} status Set the status
+ * @property {string} message Set the message
+ * @property {string | undefined} button Set the button text
+ * @property {string} color Set the background color
+ * @property {number} timeout Set the timeout
+ * @property {Function} tryAgainUploadHandler Custom function you we want to try again in upload handler
+ */
+/* eslint-disable */
+interface IProps {
+  logo: string;
+  status: string;
+  messege: string;
+  button: string | undefined;
+  color: string;
+  timeout: number;
+  tryAgainUploadHandler: () => void;
+}
+
+/**
+ * @description States of Failure Model Component
+ * @memberof FailureModal
+ * @property {boolean} show Set the visibility
+ */
+/* eslint-disable */
+interface IState {
+  show: boolean;
+}
+
+/**
+ * @component
+ * It is child component of App component
+ * @description FailureModal Component
+ */
+class FailureModal extends React.Component&lt;IProps, IState> {
+  cardRef: any;
+  btnRef: any;
+
+  state: IState = {
+    show: true,
+  };
+
+  timeout: any;
+
+  /**
+   * @constructor
+   * @description Constructor
+   * @param {IProps} props Props
+   * @returns void
+   */
+  constructor(props: IProps) {
+    super(props);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+    this.setAutoHide = this.setAutoHide.bind(this);
+    this.hide = this.hide.bind(this);
+    this.cardRef = React.createRef();
+    this.btnRef = React.createRef();
+  }
+
+  /**
+   * @description Set auto hide modal
+   * @property {function} setAutoHide Set auto hide modal
+   * @memberof FailureModal
+   * @return {void}
+   */
+  setAutoHide() {
+    if (!this.props.button)
+      this.timeout = setTimeout(
+        () => this.setState({ show: false }),
+        this.props.timeout | 5000
+      );
+  }
+
+  /**
+   * @description Hide modal
+   * @property {function} handleShow Handle Show
+   * @memberof FailureModal
+   * @return {void}
+   */
+  handleShow() {
+    this.setState({ show: true });
+  }
+
+  /**
+   * @description Hide modal
+   * @property {function} hide Hide modal
+   * @memberof FailureModal
+   * @return {void}
+   */
+  hide() {
+    this.setState({ show: false });
+  }
+
+  /**
+   * @description Hide modal
+   * @property {function} handleClose Hide modal
+   * @memberof FailureModal
+   * @return {void}
+   */
+  handleClose() {
+    this.hide();
+    this.props.tryAgainUploadHandler();
+  }
+
+  /**
+   * @description Render modal
+   * @property {function} componentDidMount Render modal
+   * @memberof FailureModal
+   * @return {void}
+   */
+  componentDidMount(): void {
+    this.setAutoHide();
+    if (this.props.color)
+      this.cardRef.current.style.backgroundColor = this.props.color;
+    this.btnRef.current.style.backgroundColor = this.props.color;
+  }
+
+  /**
+   * @description Render modal
+   * @property {function} componentDidUpdate Render modal
+   * @memberof FailureModal
+   * @return {void}
+   */
+  componentWillUnmount(): void {
+    if (!this.props.button) clearTimeout(this.timeout);
+  }
+
+  render() {
+    return (
+      &lt;>
+        &lt;Modal size="sm" show={this.state.show} onHide={this.hide}>
+          &lt;Modal.Body className="cus-design d-flex flex-column justify-content-center align-item-center bg-light">
+            &lt;Row
+              ref={this.cardRef}
+              className="reg-card-part-1 d-flex justify-content-center align-item-center"
+            >
+              &lt;Image className="reg-img" src={this.props.logo}>&lt;/Image>
+              &lt;FormLabel className="reg-status text-center">
+                {this.props.status}
+              &lt;/FormLabel>
+            &lt;/Row>
+            &lt;Row className="reg-card-part-2 d-flex justify-content-center align-item-center">
+              &lt;FormLabel className="reg-msg text-center">
+                {this.props.messege}
+              &lt;/FormLabel>
+              {this.props.button ? (
+                &lt;Button
+                  ref={this.btnRef}
+                  onClick={this.handleClose}
+                  className="reg-btn"
+                >
+                  {this.props.button}
+                &lt;/Button>
+              ) : null}
+            &lt;/Row>
+          &lt;/Modal.Body>
+        &lt;/Modal>
+      &lt;/>
+    );
+  }
+}
+
+export { FailureModal };
+export default FailureModal;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

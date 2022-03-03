@@ -1,0 +1,1 @@
+export { CertificateComponent } from "./CertificateComponent";

@@ -1,0 +1,529 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> components/UploadAsset/UploadAsset.tsx</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">My React components</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Classes</h3><ul><li><a href="AlertBox.html">AlertBox</a></li><li><a href="App.html">App</a></li><li><a href="BeforeAfterComponent.html">BeforeAfterComponent</a></li><li><a href="BeforeAfterSliderComponent.html">BeforeAfterSliderComponent</a></li><li><a href="CarousalItemComponent.html">CarousalItemComponent</a></li><li><a href="CarouselComponent.html">CarouselComponent</a></li><li><a href="CertificateComponent.html">CertificateComponent</a></li><li><a href="Certification.html">Certification</a></li><li><a href="ColumnChart.html">ColumnChart</a></li><li><a href="DoughnutChart.html">DoughnutChart</a></li><li><a href="EmailSelectorComponent.html">EmailSelectorComponent</a></li><li><a href="FailureModal.html">FailureModal</a></li><li><a href="Footer.html">Footer</a></li><li><a href="Header.html">Header</a></li><li><a href="ListGroupComponent.html">ListGroupComponent</a></li><li><a href="PdfGen.html">PdfGen</a></li><li><a href="ReportTable.html">ReportTable</a></li><li><a href="Share.html">Share</a></li><li><a href="SuccessToast.html">SuccessToast</a></li><li><a href="TemplateCard.html">TemplateCard</a></li><li><a href="UploadAsset.html">UploadAsset</a></li><li><a href="UploadBox.html">UploadBox</a></li><li><a href="UploadCard.html">UploadCard</a></li></ul><h3>Interfaces</h3><ul><li><a href="AlertBox.IProps.html">IProps</a></li><li><a href="AlertBox.IState.html">IState</a></li><li><a href="App.IProps.html">IProps</a></li><li><a href="App.IState.html">IState</a></li><li><a href="BeforeAfterSliderComponent.IProps.html">IProps</a></li><li><a href="BeforeAfterSliderComponent.IState.html">IState</a></li><li><a href="CarousalItemComponent.IProps.html">IProps</a></li><li><a href="CarousalItemComponent.IState.html">IState</a></li><li><a href="CarouselComponent.IProps.html">IProps</a></li><li><a href="CarouselComponent.IState.html">IState</a></li><li><a href="CertificateComponent.IProps.html">IProps</a></li><li><a href="CertificateComponent.IState.html">IState</a></li><li><a href="Certification.IProps.html">IProps</a></li><li><a href="Certification.IState.html">IState</a></li><li><a href="ColumnChart.IProps.html">IProps</a></li><li><a href="ColumnChart.IState.html">IState</a></li><li><a href="DoughnutChart.IProps.html">IProps</a></li><li><a href="DoughnutChart.IState.html">IState</a></li><li><a href="EmailSelectorComponent.IProps.html">IProps</a></li><li><a href="EmailSelectorComponent.IState.html">IState</a></li><li><a href="FailureModal.IProps.html">IProps</a></li><li><a href="FailureModal.IState.html">IState</a></li><li><a href="IProps.html">IProps</a></li><li><a href="ListGroupComponent.IProps.html">IProps</a></li><li><a href="ListGroupComponent.IState.html">IState</a></li><li><a href="PdfGen.IProps.html">IProps</a></li><li><a href="PdfGen.IState.html">IState</a></li><li><a href="ReportTable.IProps.html">IProps</a></li><li><a href="ReportTable.IState.html">IState</a></li><li><a href="Share.IProps.html">IProps</a></li><li><a href="Share.IState.html">IState</a></li><li><a href="SuccessToast.IProps.html">IProps</a></li><li><a href="SuccessToast.IState.html">IState</a></li><li><a href="TemplateCard.IProps.html">IProps</a></li><li><a href="TemplateCard.IState.html">IState</a></li><li><a href="UploadAsset.IProps.html">IProps</a></li><li><a href="UploadAsset.IState.html">IState</a></li><li><a href="UploadBox.IProps.html">IProps</a></li><li><a href="UploadBox.IState.html">IState</a></li><li><a href="UploadCard.IProps.html">IProps</a></li><li><a href="UploadCard.IState.html">IState</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/UploadAsset/UploadAsset.tsx</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import React from "react";
+import {
+  Col,
+  Row,
+  Container,
+  FormLabel,
+  Form,
+  CloseButton,
+} from "react-bootstrap";
+
+import { AlertBox } from "./AlertBox";
+import { UploadBox } from "./UploadBox";
+import { UploadCard } from "./UploadCard";
+
+import "./styles.scss";
+
+/**
+ * @description Props of UploadAsset Component
+ * @memberof UploadAsset
+ * @property {any} localeConfig Set the locale config data
+ * @property {any} uploadAssetConfig Set the upload asset config data
+ * @property {any} setUploadedFiles Set uploaded files
+ * @property {boolean} uploadingStatus Set the uploading status
+ * @property {number} uploadingPercentage Set the uploading percentage
+ * @property {Function} uploadCancelHandler Set the upload cancel handler function
+ */
+/* eslint-disable */
+interface IProps {
+  localeConfig: any;
+  uploadAssetConfig: any;
+  setUploadedFiles: any;
+  uploadingStatus: boolean;
+  uploadingPercentage: number;
+  uploadCancelHandler: () => void;
+  uploadHandler: any;
+}
+
+/**
+ * @description States of UploadAsset Component
+ * @memberof UploadAsset
+ * @property {File | null} uploadedFile Set the uploaded file
+ * @property {string} uploadedFilePath Set the uploaded file path
+ * @property {number} uploadingPercentage Set the uploading percentage
+ * @property {boolean} showAlertBox Set the weather to show alert box or not
+ */
+/* eslint-disable */
+interface IState {
+  uploadedFile: Array&lt;Object>;
+  uploadedFilePath: Array&lt;String>;
+  uploadingPercentage: number;
+  showAlertBox: boolean;
+}
+
+/**
+ * @component
+ * This component was used in App component
+ * @description UploadAsset Component
+ */
+class UploadAsset extends React.Component&lt;IProps, IState> {
+  dragRef: React.RefObject&lt;HTMLDivElement>;
+  inputRef: React.RefObject&lt;HTMLInputElement>;
+  uploadingRef: React.RefObject&lt;HTMLDivElement>;
+  fileBrowserRef: any;
+  validFileTypes: string[];
+  validFileSize: number;
+
+  state: IState = {
+    uploadedFile: null,
+    uploadedFilePath: null,
+    uploadingPercentage: 0,
+    showAlertBox: false,
+  };
+
+  /**
+   * @constructor
+   * @description Constructor
+   * @param {IProps} props Props
+   * @returns void
+   */
+  constructor(props: IProps) {
+    super(props);
+    this.bindThisToMethods = this.bindThisToMethods.bind(this);
+    this.bindThisToMethods();
+    this.createRefs();
+    this.setConfig();
+  }
+
+  /**
+   * @description Bind all the methods to this
+   * @property {Function} bindThisToMethods Bind This To Methods
+   * @returns void
+   */
+  bindThisToMethods() {
+    this.dragOverHandler = this.dragOverHandler.bind(this);
+    this.dragLeaveHandler = this.dragLeaveHandler.bind(this);
+    this.validateFile = this.validateFile.bind(this);
+    this.browseHandler = this.browseHandler.bind(this);
+    this.createRefs = this.createRefs.bind(this);
+    this.setConfig = this.setConfig.bind(this);
+    this.validFilehandler = this.validFilehandler.bind(this);
+    this.invalidFilehandler = this.invalidFilehandler.bind(this);
+    this.dropHandler = this.dropHandler.bind(this);
+    this.isValidSize = this.isValidSize.bind(this);
+    this.isValidType = this.isValidType.bind(this);
+    this.validBrowseClickHandler = this.validBrowseClickHandler.bind(this);
+    this.cancelFileSelectionHandler =
+      this.cancelFileSelectionHandler.bind(this);
+  }
+
+  /**
+   * @description All the Ref are created here
+   * @property {Function} createRefs Create Refs
+   * @returns void
+   */
+  createRefs() {
+    this.dragRef = React.createRef();
+    this.inputRef = React.createRef();
+    this.uploadingRef = React.createRef();
+    this.fileBrowserRef = React.createRef();
+  }
+
+  /**
+   * @description Set configurations for file types, size, multiple upload support
+   * @property {Function} setConfig Set Config
+   * @returns void
+   */
+  setConfig() {
+    this.validFileTypes =
+      this.props.uploadAssetConfig.supportedFileTypes.split(",");
+    this.validFileSize = this.props.uploadAssetConfig.supportedMaxFileSize;
+  }
+
+  /**
+   * @description Drag over handler method
+   * @property {Function} dragOverHandler Drag Over Handler
+   * @returns void
+   */
+  dragOverHandler() {
+    this.dragRef.current.style.backgroundColor = "#DCDCDC";
+  }
+
+  /**
+   * @description Drag leave handler method
+   * @property {Function} dragLeaveHandler Drag Leave Handler
+   * @returns void
+   */
+  dragLeaveHandler() {
+    this.dragRef.current.style.backgroundColor = "#f1f1f1";
+  }
+
+  /**
+   * @description File browse handler
+   * @property {Function} browseHandler Browse Handler
+   * @returns void
+   */
+  browseHandler() {
+    this.inputRef.current?.click();
+  }
+
+  /**
+   * @description File browse handler for validating file
+   * @property {Function} dropHandler Drop Handler
+   * @param {object} event - Event
+   * @returns void
+   */
+  dropHandler(event) {
+    if (this.props.uploadingStatus || !event.target.files.length) return;
+
+    const files = event.target.files;
+    const filesToBeUploaded = [];
+    const filepathsToBeUploaded = [];
+    for (var key in files) {
+      if (typeof files[key] != "object") continue;
+      const path = "C:/fakepath/" + files[key].name;
+      const isValid = this.validateFile(files[key], path);
+      if (isValid) {
+        filesToBeUploaded.push(files[key]);
+        filepathsToBeUploaded.push(path);
+      }
+    }
+    this.setState({ uploadedFile: filesToBeUploaded });
+    this.setState({ uploadedFilePath: filepathsToBeUploaded });
+  }
+
+  /**
+   * @description File browse handler for validating file size
+   * @property {Function} isValidSize Is Valid Size
+   * @param {File} file File object
+   * @returns void
+   */
+  isValidSize(file: File) {
+    return file.size / 1000 &lt;= this.validFileSize ? true : false;
+  }
+
+  /**
+   * @description File browse handler for validating file type
+   * @property {Function} isValidType Is Valid Type
+   * @param {File} file File object
+   * @returns void
+   */
+  isValidType(file: File) {
+    const fileType = file.type || file.name.split(".").pop();
+
+    return this.validFileTypes.includes(fileType) ? true : false;
+  }
+
+  /**
+   * @description File browse handler for validating file
+   * @property {Function} validFile Valid File
+   * @param {File} file File object
+   * @param {String} path File path
+   * @returns void
+   */
+  validateFile(file: File, path: string) {
+    return this.isValidSize(file) &amp;&amp; this.isValidType(file)
+      ? this.validFilehandler(file, path)
+      : this.invalidFilehandler();
+  }
+
+  /**
+   * @description File browse handler for validating file
+   * @property {Function} validFilehandler Valid File handler
+   * @param {File} file File object
+   * @param {String} path File path
+   * @returns void
+   */
+  validFilehandler(file: File, path: string) {
+    // this.setState({ uploadedFile: file });
+    // this.setState({ uploadedFilePath: path });
+    this.setState({ showAlertBox: false });
+    this.uploadingRef.current.classList.remove("d-none");
+    this.dragRef.current.classList.add("d-none");
+    return true;
+  }
+
+  /**
+   * @description File browse handler for invalid file
+   * @property {Function} invalidFilehandler Invalid File handler
+   * @returns void
+   */
+  invalidFilehandler() {
+    this.setState({ showAlertBox: true });
+    return false;
+  }
+
+  /**
+   * @description File browse handler for validating file
+   * @property {Function} validBrowseClickHandler Valid Browse Click Handler
+   * @param {object} event Event object
+   * @returns void
+   */
+  validBrowseClickHandler(event) {
+    const list = document.elementsFromPoint(event.clientX, event.clientY);
+    const isValidClick = !!list.filter((element) => element?.id === "browse")
+      .length;
+
+    const isCancelFileSelectionClick = !!list.filter(
+      (element) => element?.id === "cancelFileSelection"
+    ).length;
+
+    if (isCancelFileSelectionClick) this.cancelFileSelectionHandler();
+
+    // if (!isValidClick) event.preventDefault()
+    if (this.state.uploadedFilePath) event.preventDefault();
+  }
+
+  /**
+   * @description Cancel File Selection Handler method
+   * @property {Function} cancelFileSelectionHandler Cancel File Selection Handler
+   * @memberof UploadAsset
+   * @returns void
+   */
+  cancelFileSelectionHandler() {
+    this.uploadingRef.current.classList.add("d-none");
+    this.dragRef.current.classList.remove("d-none");
+    this.setState({ uploadedFile: null });
+    this.setState({ uploadedFilePath: null });
+    this.inputRef.current.value = "";
+    this.dragRef.current.style.backgroundColor = "#f1f1f1";
+    this.uploadingRef.current.style.backgroundColor = "#f1f1f1";
+  }
+
+  /**
+   * @description ComponentDidUpdate method
+   * @property {Function} componentDidUpdate Component Did Update
+   * @param {object} prevProps Previous props
+   * @param {object} prevState Previous state
+   * @param {object} snapshot Snapshot
+   * @memberof UploadAsset
+   * @returns void
+   */
+  componentDidUpdate(
+    prevProps: Readonly&lt;IProps>,
+    prevState: Readonly&lt;IState>,
+    snapshot?: any
+  ): void {
+    if (
+      !this.props.uploadingPercentage &amp;&amp;
+      prevProps.uploadingPercentage !== this.props.uploadingPercentage
+    ) {
+      this.uploadingRef.current.classList.add("d-none");
+      this.dragRef.current.classList.remove("d-none");
+    }
+
+    if (
+      this.props.uploadingPercentage &amp;&amp;
+      prevProps.uploadingPercentage !== this.props.uploadingPercentage
+    ) {
+      this.setState({ uploadingPercentage: this.props.uploadingPercentage });
+      this.uploadingRef.current.classList.remove("d-none");
+    }
+
+    if (prevState.uploadedFile !== this.state.uploadedFile) {
+      this.props.setUploadedFiles(
+        this.state.uploadedFile,
+        this.state.uploadedFilePath
+      );
+    }
+  }
+
+  render() {
+    return (
+      &lt;>
+        &lt;Container className="drag-sec">
+          &lt;Form.Group className="input-file" onChange={this.dropHandler}>
+            &lt;Form.Control
+              ref={this.inputRef}
+              onDragOver={this.dragOverHandler}
+              onDragLeave={this.dragLeaveHandler}
+              type="file"
+              // onChange={this.dropHandler}
+              multiple={this.props.uploadAssetConfig.multiFileUpload}
+              onClick={this.validBrowseClickHandler}
+            />
+          &lt;/Form.Group>
+          &lt;Row>
+            {this.state.showAlertBox ? (
+              &lt;AlertBox
+                alertMsg={
+                  this.props.localeConfig.uploadAsset_upload_msg_failure
+                }
+              />
+            ) : null}
+            &lt;Col xs={12} md={12} className="drop-box" ref={this.dragRef}>
+              &lt;Row>
+                &lt;Col xs={12} md={12} className="text-center">
+                  {this.props.localeConfig.uploadAsset_subHeader_1}
+                  &lt;FormLabel className="strong">
+                    {this.props.localeConfig.uploadAsset_subHeader_2}
+                  &lt;/FormLabel>
+                &lt;/Col>
+                &lt;Col xs={12} md={12}>
+                  &lt;FormLabel className="pe-1">
+                    {this.props.localeConfig.uploadAsset_dropBoxHeader_1}
+                  &lt;/FormLabel>
+                  &lt;FormLabel
+                    id="browse"
+                    className="strong"
+                    onClick={this.browseHandler}
+                  >
+                    {this.props.localeConfig.uploadAsset_dropBoxHeader_2}
+                  &lt;/FormLabel>
+                &lt;/Col>
+                &lt;Col xs={12} md={12}>
+                  &lt;FormLabel className="pe-1">
+                    {this.props.localeConfig.uploadAsset_dropBoxSubHeader_1}
+                  &lt;/FormLabel>
+                &lt;/Col>
+              &lt;/Row>
+            &lt;/Col>
+          &lt;/Row>
+
+          &lt;Row
+            className="drop-box d-none"
+            style={{ display: "flex" }}
+            ref={this.uploadingRef}
+          >
+            {this.state.uploadedFile?.map((file, index) => (
+              // console.log(file?.name)
+              &lt;UploadCard
+                key={index}
+                uploadedFileName={file?.name}
+                uploadedFIleSize={file?.size}
+                uploadedFileType={
+                  file?.type ? file?.type : file?.name.split(".").pop()
+                }
+                uploadHandler={this.props.uploadHandler}
+                uploadCancelHandler={this.props.uploadCancelHandler}
+              />
+            ))}
+            &lt;Col xs={11} md={10} className="m-auto">
+              {this.props.uploadingStatus ? (
+                &lt;UploadBox
+                  uploadingPercentage={this.props.uploadingPercentage}
+                  uploadMsg={"success"}
+                  uploadCancelHandler={this.props.uploadCancelHandler}
+                />
+              ) : null}
+            &lt;/Col>
+          &lt;/Row>
+        &lt;/Container>
+      &lt;/>
+    );
+  }
+}
+
+export default UploadAsset;
+
+export { UploadAsset };
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.7</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

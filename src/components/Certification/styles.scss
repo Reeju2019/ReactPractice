@@ -1,0 +1,57 @@
+.header-1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.header-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header-3 {
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.header-4 {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.template-card {
+  border: solid 3px #f5f4f8;
+}
+
+.template-card-selected {
+  border: solid 3px #6851b5;
+}
+
+.template-caption {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+  color: #6851b5;
+}
+
+.template-caption-selected {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+  color: #6851b5;
+}
+
+.download-btn {
+  background-color: #4326a3;
+  font-size: 1rem;
+  padding: 0.3rem 2rem;
+  &:hover {
+    background-color: #4326a3;
+  }
+  &:focus {
+    background-color: #4326a3;
+    outline: 0;
+    box-shadow: none;
+  }
+}

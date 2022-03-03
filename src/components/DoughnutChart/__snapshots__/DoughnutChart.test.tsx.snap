@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Doughnut Chart Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="dchart-container-border m-5"
+    >
+      <Row
+        className="d-flex justify-content-between header-border-bottom py-3"
+      >
+        <Col
+          className="header-1-dchart text-start"
+          lg={7}
+          md={6}
+          sm={7}
+          xs={6}
+        >
+          
+        </Col>
+        <Col
+          lg={4}
+          md={6}
+          sm={5}
+          xs={6}
+        >
+          <FormControl
+            onChange={[Function]}
+            placeholder="DD/MM/YY"
+            type="date"
+            value="2022-02-18"
+          />
+        </Col>
+      </Row>
+      <Row
+        className=""
+      >
+        <Col
+          className="dchart-border py-4"
+          lg={6}
+          md={6}
+          sm={6}
+          xs={6}
+        >
+          <ForwardRef
+            data={
+              Object {
+                "datasets": Array [
+                  Object {
+                    "backgroundColor": Array [
+                      "#4326a3",
+                      "#f28e2b",
+                    ],
+                    "borderColor": Array [
+                      "#4326a3",
+                      "#f28e2b",
+                    ],
+                    "borderWidth": 1,
+                    "data": Array [
+                      12,
+                      19,
+                    ],
+                    "label": "LEGEND",
+                  },
+                ],
+                "labels": Array [
+                  "Present",
+                  "Absent",
+                ],
+                "modelName": "model1",
+              }
+            }
+            onClick={[Function]}
+            options={
+              Object {
+                "plugins": Object {},
+                "responsive": false,
+                "scales": Object {},
+              }
+            }
+          />
+        </Col>
+        <Col
+          className="align-self-center legend-box ps-5"
+          lg={6}
+          md={6}
+          sm={6}
+          xs={6}
+        >
+          <Row
+            className="strong mb-3 legend-title"
+          />
+          <Row
+            className="legend-row align-items-center strong"
+          >
+            <Col
+              className="legend-col"
+              lg={6}
+              md={6}
+              sm={6}
+              style={
+                Object {
+                  "color": "#4326a3",
+                }
+              }
+              xs={6}
+            >
+              Present
+            </Col>
+            <Col
+              className="legend-col"
+              lg={6}
+              md={6}
+              sm={6}
+              xs={6}
+            >
+              12
+            </Col>
+          </Row>
+          <Row
+            className="legend-row align-items-center strong"
+          >
+            <Col
+              className="legend-col"
+              lg={6}
+              md={6}
+              sm={6}
+              style={
+                Object {
+                  "color": "#f28e2b",
+                }
+              }
+              xs={6}
+            >
+              Absent
+            </Col>
+            <Col
+              className="legend-col"
+              lg={6}
+              md={6}
+              sm={6}
+              xs={6}
+            >
+              19
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Row>
+  </React.Fragment>,
+]
+`;

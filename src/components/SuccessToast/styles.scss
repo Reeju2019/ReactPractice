@@ -1,0 +1,68 @@
+.succ-card-part-1 {
+  height: 50%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  background-color: #8bc349;
+  padding: 30px;
+  margin: 0;
+}
+
+.succ-card-part-2 {
+  height: 50%;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+  margin: 0;
+}
+
+.succ-img {
+  width: 75%;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.succ-status {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.succ-msg {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.vl {
+  border-left: 2px solid #f1f1f1;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  width: 3%;
+}
+
+.succ-img-bg {
+  background-color: #8bc34a;
+  padding: 0;
+  height: 72%;
+  margin: 0;
+  left: 4%;
+  width: 20%;
+  position: absolute;
+}
+
+.btn-close {
+  position: absolute;
+  right: 10%;
+  top: 41%;
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.toast-container {
+  z-index: 5000;
+}

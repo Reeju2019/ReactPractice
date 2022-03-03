@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Item Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="def-img"
+    />
+    <CarouselCaption>
+      <FormLabel
+        column={false}
+        visuallyHidden={false}
+      >
+        Default HEADER
+      </FormLabel>
+      <FormLabel
+        column={false}
+        visuallyHidden={false}
+      >
+        Default Caption
+      </FormLabel>
+      <React.Fragment />
+    </CarouselCaption>
+  </React.Fragment>,
+]
+`;

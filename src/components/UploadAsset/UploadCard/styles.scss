@@ -1,0 +1,22 @@
+.uploadCard {
+  min-width: 15rem !important;
+  min-height: 5rem;
+}
+
+.uploadCardTitle {
+  width: 180px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 1rem;
+}
+
+.uploadCardClose {
+  position: absolute;
+  box-shadow: 0 0 0 1px grey;
+  padding: 0.15rem;
+  font-size: 0.35rem;
+  flex: wrap;
+  top: 5px !important;
+  right: 5px !important;
+}

@@ -1,0 +1,41 @@
+{
+    "options": [
+        {
+            "name": "Aravind Kumar S",
+            "email": "aravinds@gmail.com"
+        },
+        {
+            "name": "Aravind Sami",
+            "email": "aravindsamik@gmail.com"
+        },
+        {
+            "name": "Aravind Srinivasan",
+            "email": "aravindsrinivasan@gmail.com"
+        },
+        {
+            "name": "Haripriya Aravind",
+            "email": "Haripriyaaravind23@gmail.com"
+        },
+        {
+            "name": "Ramesh Aravind",
+            "email": "ramesharavind@gmail.com"
+        },
+        {
+            "name": "Lionel Messi",
+            "email": "lionelmessi@gmail.com"
+        },
+        {
+            "name": "Cristiano Ronaldo",
+            "email": "cr7@gmail.com"
+        },
+        {
+            "name": "Gourab Neogi",
+            "email": "gourabneogi25@gmail.com"
+        },
+        {
+            "name": "Aravind Kusdsdmar S",
+            "email": "aravindsadsa@gmail.com"
+        }
+    ],
+    "maxRecipients": 5
+}

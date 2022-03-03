@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="rchart-container-border m-5 m-5"
+    >
+      <Row
+        className="rchart-border-bottom py-2 ps-4"
+      >
+        <Col
+          className="strong text-start pt-2"
+          data-for="headerTip"
+          data-tip={true}
+          lg={3}
+          md={6}
+          sm={8}
+          xs={8}
+        >
+          <Image
+            className="pe-2"
+            fluid={false}
+            rounded={false}
+            roundedCircle={false}
+            src="/assets/logo/example.png"
+            thumbnail={false}
+          />
+          header
+          <ReactTooltip
+            clickable={false}
+            effect="solid"
+            id="headerTip"
+            insecure={true}
+            place="bottom"
+            resizeHide={true}
+            wrapper="div"
+          >
+            header
+          </ReactTooltip>
+        </Col>
+        <Col
+          lg={2}
+          md={3}
+          sm={3}
+          xs={3}
+        >
+          <FormSelect
+            aria-label="Default select example"
+            className="dropdown-select"
+            onChange={[Function]}
+          />
+        </Col>
+        <Col
+          className="pt-2"
+          lg={4}
+          md={4}
+          sm={4}
+          xs={4}
+        >
+          <FormLabel
+            className="mylink"
+            column={false}
+            onClick={[Function]}
+            visuallyHidden={false}
+          />
+        </Col>
+      </Row>
+      <Col
+        className="ag-theme-alpine"
+        id="agGridRoportTable"
+        lg={12}
+        md={12}
+        sm={12}
+        style={
+          Object {
+            "height": "500px",
+          }
+        }
+        xs={12}
+      >
+        <AgGridReact
+          columnDefs={
+            Array [
+              Object {
+                "checkboxSelection": false,
+                "field": "Course Name",
+                "filter": true,
+                "headerName": "Course Name",
+                "headerTooltip": "Course Name",
+                "sortable": true,
+              },
+              Object {
+                "checkboxSelection": false,
+                "field": "Enrollments",
+                "filter": true,
+                "headerName": "Enrollments",
+                "headerTooltip": "Enrollments",
+                "sortable": true,
+              },
+              Object {
+                "checkboxSelection": false,
+                "field": "Efficacy",
+                "filter": true,
+                "headerName": "Efficacy",
+                "headerTooltip": "Efficacy",
+                "sortable": true,
+              },
+            ]
+          }
+          enableBrowserTooltips={true}
+          getRowClass={[Function]}
+          onCellClicked={[Function]}
+          rowData={
+            Array [
+              Object {
+                "Course Name": "Course Title 1",
+                "Efficacy": 50,
+                "Enrollments": 53,
+              },
+              Object {
+                "Course Name": "Course Title 2",
+                "Efficacy": 78,
+                "Enrollments": 24,
+              },
+              Object {
+                "Course Name": "Course Title 3",
+                "Efficacy": 20,
+                "Enrollments": 21,
+              },
+              Object {
+                "Course Name": "Course Title 4",
+                "Efficacy": 56,
+                "Enrollments": 18,
+              },
+              Object {
+                "Course Name": "Course Title 5",
+                "Efficacy": 24,
+                "Enrollments": 25,
+              },
+            ]
+          }
+          rowSelection="multiple"
+          suppressRowHoverHighlight={true}
+        />
+      </Col>
+    </Row>
+  </React.Fragment>,
+]
+`;

@@ -1,0 +1,42 @@
+.header-1-dchart {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.strong {
+  font-weight: bold;
+}
+.legend-row {
+  padding: 5px;
+}
+.legend-col {
+  text-align: left;
+}
+.legend-col:last-child {
+  text-align: right;
+}
+.legend-row:not(:last-child) {
+  border-bottom: 1px solid #dedede;
+}
+.strong.mb-3.legend-title.row {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  background: #e1e1e1;
+}
+.dchart-border {
+  border-right: #dcdcdc 2px solid;
+}
+
+.legend-box {
+  height: 150px;
+}
+
+.dchart-container-border {
+  border: #dcdcdc solid;
+  width: 50%;
+}
+
+.header-border-bottom {
+  border-bottom: #dcdcdc 2px solid;
+  margin: 0;
+}

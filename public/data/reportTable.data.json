@@ -1,0 +1,172 @@
+{
+  "layout": {
+    "header": {
+      "xs": 6,
+      "sm": 5,
+      "md": 4,
+      "lg": 5
+    },
+    "dropdown": {
+      "xs": 4,
+      "sm": 4,
+      "md": 5,
+      "lg": 4
+    },
+    "viewAll": {
+      "xs": 2,
+      "sm": 3,
+      "md": 3,
+      "lg": 3
+    },
+    "table": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    }
+  },
+  "keys": ["CourseName", "Enrollments", "Efficacy", "details"],
+  "rowSelection": "multiple",
+  "headerIconStyle": "fas fa-desktop me-2",
+  "columnDefs": [
+    {
+      "headerName": "Course Name",
+      "field": "CourseName",
+      "sortable": true,
+      "filter": true,
+      "checkboxSelection": false,
+      "resizable": true,
+      "width": 190,
+      "minWidth": 180,
+      "maxWidth": 250,
+      "lockPosition": true,
+      "lockVisible": true
+    },
+    {
+      "headerName": "Enrollments",
+      "field": "Enrollments",
+      "sortable": true,
+      "filter": false,
+      "checkboxSelection": false,
+      "resizable": true,
+      "width": 120,
+      "minWidth": 110,
+      "maxWidth": 150,
+      "lockVisible": true
+    },
+    {
+      "headerName": "Efficacy",
+      "field": "Efficacy",
+      "sortable": true,
+      "filter": false,
+      "checkboxSelection": false,
+      "resizable": true,
+      "width": 100,
+      "minWidth": 100,
+      "maxWidth": 150,
+      "lockVisible": true
+    },
+    {
+      "headerName": "",
+      "field": "details",
+      "sortable": false,
+      "filter": false,
+      "checkboxSelection": false,
+      "lockVisible": true
+    }
+  ],
+  "rowData": [
+    {
+      "CourseName": "Course Title 1",
+      "Enrollments": 53,
+      "Efficacy": "50 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 2",
+      "Enrollments": 24,
+      "Efficacy": "78 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 3",
+      "Enrollments": 21,
+      "Efficacy": "20 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 4",
+      "Enrollments": 18,
+      "Efficacy": "56 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 1",
+      "Enrollments": 53,
+      "Efficacy": "50 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 2",
+      "Enrollments": 24,
+      "Efficacy": "78 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 3",
+      "Enrollments": 21,
+      "Efficacy": "20 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 4",
+      "Enrollments": 18,
+      "Efficacy": "56 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 1",
+      "Enrollments": 53,
+      "Efficacy": "50 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 2",
+      "Enrollments": 24,
+      "Efficacy": "78 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 3",
+      "Enrollments": 21,
+      "Efficacy": "20 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 4",
+      "Enrollments": 18,
+      "Efficacy": "56 %",
+      "details": "view details"
+    },
+    {
+      "CourseName": "Course Title 1",
+      "Enrollments": 53,
+      "Efficacy": "50 %",
+      "details": "view details"
+    }
+  ],
+  "dropdownData": [
+    {
+      "id": 1,
+      "name": "model1"
+    },
+    {
+      "id": 2,
+      "name": "model2"
+    },
+    {
+      "id": 3,
+      "name": "model3"
+    }
+  ]
+}

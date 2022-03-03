@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Before after Slider Component Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Row
+      className="container m-3 p-2"
+      md={12}
+      sm={12}
+    >
+      <s
+        aspectRatio="taller"
+        handle={null}
+        handleSize={40}
+        hover={false}
+        leftImage="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+        leftImageAlt="Image One label"
+        leftImageCss={Object {}}
+        leftImageLabel="First slide label"
+        onSliderPositionChange={null}
+        rightImage="https://images.news18.com/ibnlive/uploads/2021/08/1628056310_dogdrinking-1200x800.png?impolicy=website&width=510&height=356"
+        rightImageAlt="Image two label"
+        rightImageCss={Object {}}
+        rightImageLabel="Second slide label"
+        skeleton={null}
+        sliderLineColor="#ffffff"
+        sliderLineWidth={2}
+        sliderPositionPercentage={0.5}
+        vertical={false}
+      />
+    </Row>
+  </React.Fragment>,
+]
+`;

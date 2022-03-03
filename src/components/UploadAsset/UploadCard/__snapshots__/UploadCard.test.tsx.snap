@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadCard Testing should render initial layout 1`] = `
+Array [
+  <React.Fragment>
+    <Col
+      className="show-drop-images"
+      lg={4}
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+      xs={12}
+    >
+      <FormLabel
+        className="me-2"
+        column={false}
+        visuallyHidden={false}
+      >
+        <Card
+          body={false}
+          className="uploadCard shadow-sm ps-2 pe-4 bg-white rounded"
+        >
+          <CardBody
+            className="m-0 p-0"
+          >
+            <Row>
+              <Col>
+                <CardTitle
+                  className="uploadCardTitle mt-2"
+                >
+                  File Name
+                </CardTitle>
+              </Col>
+              <Col>
+                <CloseButton
+                  aria-label="Close"
+                  className="uploadCardClose rounded-circle"
+                  id="cancelFileSelection"
+                />
+              </Col>
+            </Row>
+            <CardSubtitle
+              className="mb-2 text-muted"
+              style={
+                Object {
+                  "fontSize": "10px",
+                }
+              }
+            >
+              Supported File Formats
+              <br />
+              11.77 mb
+            </CardSubtitle>
+          </CardBody>
+        </Card>
+      </FormLabel>
+    </Col>
+  </React.Fragment>,
+]
+`;

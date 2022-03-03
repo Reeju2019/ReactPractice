@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "img": "https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png",
+            "alt": "Image One label",
+            "header": "First slide label",
+            "caption": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+        },
+        {
+            "id": 2,
+            "img": "/assets/images/carousel-2.jfif",
+            "alt": "Image two label",
+            "header": "2 slide label",
+            "caption": "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+            "button": "button",
+            "textArea": "textArea"
+        },
+        {
+            "id": 3,
+            "alt": "Image 3 labelll",
+            "header": "3 slide label",
+            "caption": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+        }
+    ]
+}
